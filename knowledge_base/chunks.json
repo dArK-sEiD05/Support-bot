@@ -1,0 +1,110 @@
+[
+  {
+    "intent": "subscription_billing",
+    "topic": "Cancel Premium",
+    "url": "https://support.spotify.com/us/article/cancel-premium/",
+    "text": "Topic: Cancel Premium\nIntent: subscription_billing\n\nSteps:\n  - Go to your account page at spotify.com/account\n  - Click 'Manage your plan'\n  - Select 'Cancel subscription'\n  - Your Premium continues until the next billing date, then converts to free\n\nNotes:\n  - Canceling during a free trial switches you to free immediately\n  - Playlists and saved music stay after downgrading\n  - Family/Duo members: leaving the plan doesn't cancel it — contact the plan manager\n  - If no cancel option appears, your sub is through a partner (check Payment section for their contact)"
+  },
+  {
+    "intent": "subscription_billing",
+    "topic": "Change Payment Details",
+    "url": "https://support.spotify.com/us/article/change-payment-details/",
+    "text": "Topic: Change Payment Details\nIntent: subscription_billing\n\nSteps:\n  - Go to spotify.com/account\n  - Navigate to 'Payment methods'\n  - Select 'Add' for new or 'Change' for existing methods\n  - Confirm with 'Add/Change payment method'\n\nNotes:\n  - A small temporary authorization charge may appear — it disappears shortly\n  - To remove a saved card: Payment methods > Saved payment methods > Remove"
+  },
+  {
+    "intent": "subscription_billing",
+    "topic": "Failed Payment",
+    "url": "https://support.spotify.com/us/article/failed-payment/",
+    "text": "Topic: Failed Payment\nIntent: subscription_billing\n\nSteps:\n  - Retry payment in a private/incognito browser window\n  - Try a different payment method\n  - Wait a few hours — may be a temporary connection issue\n  - Contact your bank or payment provider directly\n\nRequirements:\n  - Payment method must have sufficient funds\n  - Must be registered in the same country as your Spotify account\n  - Must not be expired or canceled\n  - Must be enabled for foreign, secure online, and recurring purchases\n\nNotes:\n  - You won't immediately lose Premium if a payment fails — Spotify retries over the next few days"
+  },
+  {
+    "intent": "subscription_billing",
+    "topic": "Premium Plans",
+    "url": "https://spotify.com/us/premium/",
+    "text": "Topic: Premium Plans\nIntent: subscription_billing\n\nPlans:\n  - Individual: $12.99/month — 1 account, ad-free, lossless, offline, 15 audiobook hrs\n  - Student: $6.99/month — 1 account, all Individual features + Hulu\n  - Duo: $18.99/month — 2 accounts, same address required\n  - Family: $21.99/month — up to 6 accounts, parental controls, same address required"
+  },
+  {
+    "intent": "device_compatibility",
+    "topic": "Spotify Connect",
+    "url": "https://support.spotify.com/us/article/spotify-connect/",
+    "text": "Topic: Spotify Connect\nIntent: device_compatibility\n\nSteps:\n  - Connect all devices to the same WiFi network\n  - Open Spotify and start playing\n  - Tap the connect/device icon at the bottom\n  - Select your target device\n\nTroubleshooting:\n  - Device not showing? Toggle 'Local device visibility' in Settings > Apps and devices\n  - iPhone users: grant local network access in iOS Settings > Spotify > Local Network\n  - Restart the Spotify app and target device\n  - Make sure all software is up to date\n  - Try resetting WiFi or switching networks\n  - Android TV: enable 'display over other apps' in TV Settings > Apps > Special app access\n  - If paused for 10+ minutes, you may need to reconnect"
+  },
+  {
+    "intent": "device_compatibility",
+    "topic": "Bluetooth",
+    "url": "https://support.spotify.com/us/article/bluetooth/",
+    "text": "Topic: Bluetooth\nIntent: device_compatibility\n\nSteps:\n  - Close Spotify first\n  - Turn on Bluetooth on both devices\n  - Pair them in Bluetooth settings\n  - Open Spotify and play\n\nTroubleshooting:\n  - Keep devices within 1 meter / 3 feet of each other\n  - Disconnect other Bluetooth devices (some only allow one connection)\n  - Check that Bluetooth allows media sharing in device settings\n  - Make sure both devices have enough battery\n  - Re-pair: Forget/Unpair the device > Bluetooth off then on > reconnect"
+  },
+  {
+    "intent": "device_compatibility",
+    "topic": "Spotify on PlayStation",
+    "url": "https://support.spotify.com/us/article/spotify-on-playstation/",
+    "text": "Topic: Spotify on PlayStation\nIntent: device_compatibility\n\nSupported:\n  - PS5 and PS4\n\nLogin Methods:\n  - Enter Spotify email and password directly\n  - Use Spotify Connect from your phone/tablet\n  - Select LOG IN WITH PIN > visit spotify.com/pair on another device\n\nControls:\n  - Ps5: Press PS button > select Music from control center\n  - Ps4: Press and hold PS button > select Spotify\n\nDisconnect:\n  - Web: spotify.com/account > Manage apps > Remove Access for Sony\n  - Console: Settings > Users and Accounts > Link Services > Spotify > Unlink\n\nTip:\n  - Disable in-game music for the best experience while gaming"
+  },
+  {
+    "intent": "device_compatibility",
+    "topic": "Spotify on Speakers",
+    "url": "https://support.spotify.com/us/article/spotify-on-speakers/",
+    "text": "Topic: Spotify on Speakers\nIntent: device_compatibility\n\nConnection Methods:\n  - Spotify Connect\n  - Voice Assistants\n  - Bluetooth\n  - AUX or USB cable\n  - Google Chromecast Audio\n  - Apple AirPlay\n\nTroubleshooting:\n  - Update app and device software\n  - Restart Spotify app\n  - Close unused apps\n  - Restart speaker and other devices\n  - Restart WiFi router\n  - Try a different WiFi network\n  - For cables: try a different cable"
+  },
+  {
+    "intent": "playback_issue",
+    "topic": "Playback Troubleshooting",
+    "url": "",
+    "text": "Topic: Playback Troubleshooting\nIntent: playback_issue\n\nSteps:\n  - Force close Spotify and reopen it\n  - Log out > restart device > log back in\n  - Check internet connection (switch between WiFi and mobile data)\n  - Check if Spotify is down (status page or downdetector)\n\nDevice Specific:\n  - Iphone: Restart by holding Sleep/Wake + Volume Down for 10 seconds\n  - Android: Force stop: Settings > Apps > Spotify > Force Stop\n  - Desktop: Close app completely (check system tray) and relaunch\n\nReinstall:\n  - Uninstall Spotify completely\n  - Restart your device\n  - Reinstall from App Store / Play Store / spotify.com\n  - Log back in (offline downloads will need re-downloading)\n\nCommon Causes:\n  - Another app taking audio focus (Snapchat, phone calls, navigation)\n  - Outdated app version\n  - Low device storage\n  - Corrupted cache"
+  },
+  {
+    "intent": "account_access",
+    "topic": "Protect Your Account",
+    "url": "https://support.spotify.com/us/article/protect-your-account/",
+    "text": "Topic: Protect Your Account\nIntent: account_access\n\nPassword Tips:\n  - Use long passwords with letters, numbers, and special characters\n  - Use a different password for each service\n  - Change your password regularly\n  - Never share your password\n\nSign Out Everywhere:\n  - Go to spotify.com/account\n  - Under Security and privacy, select 'Sign out everywhere'\n  - Confirm the action\n  - Note: this doesn't cover speakers/consoles/TVs — remove those via Manage apps\n\nIf Hacked:\n  - Reset your password immediately at spotify.com/password-reset\n  - Sign out everywhere from your account page\n  - Remove unrecognized third-party apps\n  - Check your email address hasn't been changed\n  - Contact Spotify support if you can't access your account at all"
+  },
+  {
+    "intent": "shuffle_queue",
+    "topic": "Shuffle",
+    "url": "https://support.spotify.com/us/article/shuffle/",
+    "text": "Topic: Shuffle\nIntent: shuffle_queue\n\nHow To:\n  - Tap the shuffle icon to toggle. Off = plays in order. On = plays randomly.\n\nStyles Premium:\n  - Fewer Repeats: Tracks what you've played recently, picks from multiple random sequences. Reduces repetition.\n  - Standard: Pure random — every track has equal chance. May repeat sooner.\n\nSmart Shuffle:\n  - What: Mixes in recommended songs matching the playlist vibe (marked with Enhance badge)\n  - Free Mobile: Always active\n  - Premium: Toggle via shuffle icon in playlists\n  - Disable: Profile > Settings and privacy > Playback > toggle off 'Include Smart Shuffle in play modes'"
+  },
+  {
+    "intent": "shuffle_queue",
+    "topic": "Play Queue",
+    "url": "https://support.spotify.com/us/article/play-queue/",
+    "text": "Topic: Play Queue\nIntent: shuffle_queue\n\nMobile:\n  - Open: Tap Now Playing bar > tap queue icon\n  - Add: Tap ··· next to a track > 'Add to Queue'\n  - Reorder: Tap and hold drag icon > drag to position\n  - Remove: Swipe left on the track\n  - Clear: Tap queue icon > 'Clear'\n\nDesktop:\n  - Open: Click queue icon near playback controls\n  - Add: Right-click track > 'Add to queue'\n  - Reorder: Click and drag to reposition\n  - Remove: Right-click > remove\n  - Clear: 'Clear queue' > confirm 'Yes'"
+  },
+  {
+    "intent": "audio_quality",
+    "topic": "Audio Quality Settings",
+    "url": "https://support.spotify.com/us/article/audio-quality/",
+    "text": "Topic: Audio Quality Settings\nIntent: audio_quality\n\nQuality Tiers:\n  - Web: AAC 128kbit/s (fixed)\n  - App: Auto | Low ~24kbit/s | Normal ~96kbit/s | High ~160kbit/s\n  - Web: AAC 256kbit/s (fixed)\n  - App: Auto | Low ~24kbit/s | Normal ~96kbit/s | High ~160kbit/s | Very High ~320kbit/s | Lossless 24-bit/44.1kHz FLAC\n\nHow To Change:\n  - Mobile/Tablet: Profile pic > Settings and privacy > Media Quality (separate WiFi vs cellular settings)\n  - Desktop: Profile pic > Settings > Audio Quality\n  - Web Player: Cannot change — download the app for quality options\n\nTips:\n  - Auto-adjust is on by default to prevent stuttering — turn it off for manual control\n  - Podcasts stream at ~96kbit/s (128 on web). Low quality drops them to ~24kbit/s\n  - Lossless requires Premium and a supported device"
+  },
+  {
+    "intent": "ads_complaints",
+    "topic": "Ads on Spotify Free",
+    "url": "",
+    "text": "Topic: Ads on Spotify Free\nIntent: ads_complaints\n\nHow Ads Work:\n  - Spotify Free includes audio and display ads between songs to support free access.\n\nReduce Ads:\n  - Upgrade to Premium ($12.99/month Individual, $6.99/month Student) for ad-free listening\n  - Watch a video ad when offered for 30 minutes of ad-free listening (mobile only)\n\nCommon Issues:\n  - 30Min Not Working: If the app crashes during the 30-minute window, the timer resets. Watch the full video ad and keep the app open.\n  - Too Many Ads: Ad frequency is set by Spotify and can't be customized on the free tier.\n  - Inappropriate Ad: Report inappropriate ads through the app or contact support.\n\nNote:\n  - There is no setting to reduce ad frequency or customize ads on the free tier."
+  },
+  {
+    "intent": "content_availability",
+    "topic": "Why Content Is Missing",
+    "url": "",
+    "text": "Topic: Why Content Is Missing\nIntent: content_availability\n\nReasons:\n  - Licensing agreements vary by country/region\n  - Artists or labels may remove their own content\n  - Content can be temporarily unavailable during licensing negotiations\n  - Some tracks are region-locked\n\nWhat To Do:\n  - Check for alternate versions or compilations\n  - Follow the artist to get notified of new releases\n  - Greyed out tracks = exists but not available in your region\n  - Request content via the Spotify Community forums"
+  },
+  {
+    "intent": "download_offline",
+    "topic": "Downloads Unexpectedly Removed",
+    "url": "",
+    "text": "Topic: Downloads Unexpectedly Removed\nIntent: download_offline\n\nCauses:\n  - Using more offline devices than allowed\n  - Not going online at least once every 30 days\n  - App update or reinstall cleared cached downloads\n  - Low storage space on device\n\nFixes:\n  - Check and manage offline devices at spotify.com/account\n  - Go online at least once every 30 days\n  - Free up storage space, then re-download\n  - If persistent: reinstall the app and re-download\n\nLimits:\n  - Up to 10,000 tracks per device\n  - Up to 5 offline devices\n  - Must connect to internet every 30 days\n\nHow To Download:\n  - Open a playlist, album, or podcast\n  - Tap the download toggle/arrow icon\n  - Green arrow = downloaded successfully\n  - Offline mode: Settings > Playback > Offline mode"
+  },
+  {
+    "intent": "country_region",
+    "topic": "Spotify Availability",
+    "url": "",
+    "text": "Topic: Spotify Availability\nIntent: country_region\n\nInfo:\n  - Spotify launches in new countries regularly but is not yet available worldwide.\n\nWhat To Do:\n  - Sign up at spotify.com to be notified when available in your country\n  - Check spotify.com for the list of supported countries\n\nTraveling:\n  - You can use Spotify abroad for up to 14 days. After that, update your country setting in account settings."
+  },
+  {
+    "intent": "feature_request",
+    "topic": "How to Request Features",
+    "url": "",
+    "text": "Topic: How to Request Features\nIntent: feature_request\n\nSteps:\n  - Visit the Spotify Community Ideas board at community.spotify.com\n  - Search if your idea already exists\n  - If it exists, vote for it\n  - If not, create a new idea post\n  - Popular ideas are reviewed by the Spotify team\n\nBot Response Template:\n  - Thanks for the suggestion! You can vote for this on the Spotify Community Ideas board — the more votes, the more likely it'll be considered."
+  }
+]

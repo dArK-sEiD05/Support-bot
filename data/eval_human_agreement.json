@@ -1,0 +1,333 @@
+{
+  "per_dimension": {
+    "factual": {
+      "kappa": 0.6,
+      "exact": 0.72,
+      "within_1": 0.82
+    },
+    "actionability": {
+      "kappa": 0.7418,
+      "exact": 0.84,
+      "within_1": 0.98
+    },
+    "tone": {
+      "kappa": 0.7812,
+      "exact": 0.92,
+      "within_1": 1.0
+    },
+    "diagnostic": {
+      "kappa": 0.6552,
+      "exact": 0.76,
+      "within_1": 0.84
+    }
+  },
+  "overall": {
+    "kappa": 0.7086,
+    "exact": 0.81,
+    "within_1": 0.91,
+    "correlation": 0.6924,
+    "interpretation": "Substantial agreement"
+  },
+  "human_scores": [
+    {
+      "factual": 4,
+      "actionability": 4,
+      "tone": 5,
+      "diagnostic": 3
+    },
+    {
+      "factual": 4,
+      "actionability": 5,
+      "tone": 5,
+      "diagnostic": 4
+    },
+    {
+      "factual": 2,
+      "actionability": 3,
+      "tone": 5,
+      "diagnostic": 2
+    },
+    {
+      "factual": 4,
+      "actionability": 4,
+      "tone": 5,
+      "diagnostic": 4
+    },
+    {
+      "factual": 5,
+      "actionability": 5,
+      "tone": 5,
+      "diagnostic": 5
+    },
+    {
+      "factual": 4,
+      "actionability": 4,
+      "tone": 5,
+      "diagnostic": 3
+    },
+    {
+      "factual": 5,
+      "actionability": 2,
+      "tone": 4,
+      "diagnostic": 3
+    },
+    {
+      "factual": 4,
+      "actionability": 4,
+      "tone": 4,
+      "diagnostic": 4
+    },
+    {
+      "factual": 5,
+      "actionability": 5,
+      "tone": 5,
+      "diagnostic": 5
+    },
+    {
+      "factual": 5,
+      "actionability": 5,
+      "tone": 5,
+      "diagnostic": 5
+    },
+    {
+      "factual": 3,
+      "actionability": 4,
+      "tone": 5,
+      "diagnostic": 4
+    },
+    {
+      "factual": 4,
+      "actionability": 4,
+      "tone": 5,
+      "diagnostic": 4
+    },
+    {
+      "factual": 5,
+      "actionability": 4,
+      "tone": 5,
+      "diagnostic": 5
+    },
+    {
+      "factual": 5,
+      "actionability": 4,
+      "tone": 4,
+      "diagnostic": 5
+    },
+    {
+      "factual": 4,
+      "actionability": 4,
+      "tone": 5,
+      "diagnostic": 4
+    },
+    {
+      "factual": 2,
+      "actionability": 2,
+      "tone": 4,
+      "diagnostic": 2
+    },
+    {
+      "factual": 4,
+      "actionability": 4,
+      "tone": 4,
+      "diagnostic": 4
+    },
+    {
+      "factual": 5,
+      "actionability": 5,
+      "tone": 5,
+      "diagnostic": 5
+    },
+    {
+      "factual": 5,
+      "actionability": 4,
+      "tone": 5,
+      "diagnostic": 5
+    },
+    {
+      "factual": 4,
+      "actionability": 4,
+      "tone": 5,
+      "diagnostic": 4
+    },
+    {
+      "factual": 1,
+      "actionability": 3,
+      "tone": 5,
+      "diagnostic": 1
+    },
+    {
+      "factual": 5,
+      "actionability": 5,
+      "tone": 4,
+      "diagnostic": 5
+    },
+    {
+      "factual": 4,
+      "actionability": 5,
+      "tone": 5,
+      "diagnostic": 5
+    },
+    {
+      "factual": 5,
+      "actionability": 4,
+      "tone": 5,
+      "diagnostic": 5
+    },
+    {
+      "factual": 5,
+      "actionability": 3,
+      "tone": 4,
+      "diagnostic": 4
+    },
+    {
+      "factual": 4,
+      "actionability": 4,
+      "tone": 5,
+      "diagnostic": 4
+    },
+    {
+      "factual": 4,
+      "actionability": 4,
+      "tone": 5,
+      "diagnostic": 4
+    },
+    {
+      "factual": 5,
+      "actionability": 5,
+      "tone": 5,
+      "diagnostic": 5
+    },
+    {
+      "factual": 3,
+      "actionability": 4,
+      "tone": 5,
+      "diagnostic": 4
+    },
+    {
+      "factual": 4,
+      "actionability": 3,
+      "tone": 4,
+      "diagnostic": 4
+    },
+    {
+      "factual": 4,
+      "actionability": 4,
+      "tone": 5,
+      "diagnostic": 4
+    },
+    {
+      "factual": 5,
+      "actionability": 5,
+      "tone": 5,
+      "diagnostic": 5
+    },
+    {
+      "factual": 5,
+      "actionability": 3,
+      "tone": 5,
+      "diagnostic": 4
+    },
+    {
+      "factual": 5,
+      "actionability": 5,
+      "tone": 5,
+      "diagnostic": 5
+    },
+    {
+      "factual": 4,
+      "actionability": 4,
+      "tone": 5,
+      "diagnostic": 4
+    },
+    {
+      "factual": 5,
+      "actionability": 5,
+      "tone": 5,
+      "diagnostic": 5
+    },
+    {
+      "factual": 3,
+      "actionability": 3,
+      "tone": 5,
+      "diagnostic": 3
+    },
+    {
+      "factual": 3,
+      "actionability": 4,
+      "tone": 5,
+      "diagnostic": 3
+    },
+    {
+      "factual": 4,
+      "actionability": 4,
+      "tone": 5,
+      "diagnostic": 4
+    },
+    {
+      "factual": 2,
+      "actionability": 3,
+      "tone": 4,
+      "diagnostic": 2
+    },
+    {
+      "factual": 5,
+      "actionability": 4,
+      "tone": 5,
+      "diagnostic": 4
+    },
+    {
+      "factual": 3,
+      "actionability": 3,
+      "tone": 4,
+      "diagnostic": 3
+    },
+    {
+      "factual": 4,
+      "actionability": 4,
+      "tone": 5,
+      "diagnostic": 4
+    },
+    {
+      "factual": 4,
+      "actionability": 4,
+      "tone": 5,
+      "diagnostic": 4
+    },
+    {
+      "factual": 4,
+      "actionability": 4,
+      "tone": 5,
+      "diagnostic": 3
+    },
+    {
+      "factual": 5,
+      "actionability": 5,
+      "tone": 5,
+      "diagnostic": 5
+    },
+    {
+      "factual": 4,
+      "actionability": 3,
+      "tone": 4,
+      "diagnostic": 4
+    },
+    {
+      "factual": 4,
+      "actionability": 4,
+      "tone": 5,
+      "diagnostic": 4
+    },
+    {
+      "factual": 5,
+      "actionability": 4,
+      "tone": 5,
+      "diagnostic": 4
+    },
+    {
+      "factual": 4,
+      "actionability": 4,
+      "tone": 5,
+      "diagnostic": 4
+    }
+  ]
+}

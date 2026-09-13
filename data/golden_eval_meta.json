@@ -1,0 +1,27 @@
+{
+  "total_examples": 200,
+  "sampling_method": "Proportional random sampling (Option A) from 26,068 SpotifyCares customer tweets. Sampled proportionally to the keyword-labeled intent distribution with a minimum floor of 3 per intent. 20 tweets reserved for other/ambiguous category. Random seed 42 for reproducibility.",
+  "labeling_method": "Each tweet was read individually and assigned a gold intent label, difficulty rating (easy/medium/hard), and a short note explaining the labeling reasoning. Labels were assigned based on the primary customer intent, not surface keywords. For example, \"cant log in on my iphone\" was labeled account_access (not device_compatibility) because the core issue is login, not the device.",
+  "key_finding": "Keyword labels disagreed with gold labels on 97/200 tweets (48%). The largest source of error was device_compatibility absorbing tweets about account access, billing, playback, and content availability whenever a device name appeared in the text.",
+  "gold_intent_distribution": {
+    "subscription_billing": 52,
+    "account_access": 26,
+    "other": 25,
+    "playback_issue": 22,
+    "content_availability": 16,
+    "feature_request": 15,
+    "playlist_library": 12,
+    "device_compatibility": 12,
+    "ads_complaints": 6,
+    "download_offline": 5,
+    "country_region": 5,
+    "shuffle_queue": 3,
+    "audio_quality": 1
+  },
+  "difficulty_distribution": {
+    "easy": 148,
+    "medium": 45,
+    "hard": 7
+  },
+  "keyword_vs_gold_agreement": "103/200 (52%)"
+}

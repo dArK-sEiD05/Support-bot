@@ -1,0 +1,952 @@
+[
+  {
+    "text": "@117153 Hi,  I already processed my payment  and the transaction number is BP__credit_card__. But, service is still not working.",
+    "gold_intent": "subscription_billing",
+    "pred_intent": "subscription_billing",
+    "intent_correct": true,
+    "gold_escalate": false,
+    "pred_escalate": true,
+    "escalation_correct": false,
+    "bot_response": "Hey there! I’m sorry to hear your Premium isn’t active yet, but don’t worry, it can sometimes take a little time to process.\n\n1. Please wait a few hours, as this is often just a temporary connection issue.\n2. If it’s still not working, try retrying the payment in a private or incognito browser window.\n3. You can also check your payment history at spotify.com/account to see the current status.\n4. If the problem persists, please reach out to us directly at support.spotify.com/contact-spotify-support/ for further assistance.",
+    "kb_topic": "Failed Payment",
+    "kb_score": 0.452,
+    "judge_scores": {
+      "factual": 4,
+      "actionability": 4,
+      "tone": 5,
+      "diagnostic": 4
+    },
+    "difficulty": "medium"
+  },
+  {
+    "text": "@SpotifyCares is there a problem with your site? Can’t login to app or web player. Says incorrect user or pass, but I know they’re correct.",
+    "gold_intent": "account_access",
+    "pred_intent": "account_access",
+    "intent_correct": true,
+    "gold_escalate": false,
+    "pred_escalate": true,
+    "escalation_correct": false,
+    "bot_response": "Hey there! I'm sorry you're having trouble getting in, but let's try a few quick fixes first.\n\n1. Go to spotify.com/password-reset to reset your password, as this is the most common fix for \"incorrect\" errors.\n2. Make sure you are using the correct email address associated with your account, not just your username.\n3. If that still doesn't work, try logging in on a different device or browser to rule out a local issue.\n4. If you are still locked out, please reach out to our team directly at support.spotify.com/contact-spotify-support/ for further assistance.",
+    "kb_topic": "Protect Your Account",
+    "kb_score": 0.5085,
+    "judge_scores": {
+      "factual": 4,
+      "actionability": 5,
+      "tone": 5,
+      "diagnostic": 4
+    },
+    "difficulty": "easy"
+  },
+  {
+    "text": "@SpotifyCares I am trying to cancel my free trial before I get charged but it is telling me I have no subscriptions and therefore there's no cancel option. I def got free trial and am worried I will be charged.",
+    "gold_intent": "subscription_billing",
+    "pred_intent": "subscription_billing",
+    "intent_correct": true,
+    "gold_escalate": true,
+    "pred_escalate": true,
+    "escalation_correct": true,
+    "bot_response": "Hey there! Don't worry, if the cancel button isn't showing, your trial is likely managed through a partner like an app store or carrier. First, check the \"Payment\" section on your account page at spotify.com/account to see who is handling the billing. If you see a partner listed there, you’ll need to cancel directly through their platform instead of Spotify. If you still can't figure it out or want to be safe, please reach out to us at support.spotify.com/contact-spotify-support/ so we can take a closer look. We're here to help you avoid any unexpected charges!",
+    "kb_topic": "Cancel Premium",
+    "kb_score": 0.7799,
+    "judge_scores": {
+      "factual": 2,
+      "actionability": 3,
+      "tone": 5,
+      "diagnostic": 2
+    },
+    "difficulty": "easy"
+  },
+  {
+    "text": "about to set spotify on fire because it isn't loading a damn thing.",
+    "gold_intent": "playback_issue",
+    "pred_intent": "playback_issue",
+    "intent_correct": true,
+    "gold_escalate": false,
+    "pred_escalate": true,
+    "escalation_correct": false,
+    "bot_response": "I totally get the frustration, let's try to cool things down! First, check your internet connection by switching between WiFi and mobile data to rule that out. If that doesn't work, try logging out, restarting your device, and logging back in. You can also force close the app completely and reopen it to clear any temporary glitches. If it's still acting up, please reach out to us at support.spotify.com/contact-spotify-support/ for further help.",
+    "kb_topic": "Playback Troubleshooting",
+    "kb_score": 0.51,
+    "judge_scores": {
+      "factual": 4,
+      "actionability": 4,
+      "tone": 5,
+      "diagnostic": 4
+    },
+    "difficulty": "easy"
+  },
+  {
+    "text": "Hey @115888  what about being available in India???",
+    "gold_intent": "country_region",
+    "pred_intent": "country_region",
+    "intent_correct": true,
+    "gold_escalate": false,
+    "pred_escalate": false,
+    "escalation_correct": true,
+    "bot_response": "Hey there! We're launching regularly in countries around the world, but Spotify isn't available in India just yet. Here is what you can do:\n\n1. Sign up at spotify.com to be notified when we launch in your region.\n2. Check the supported countries list on the same page for updates.\n\nHopefully, we'll get there soon! Let us know if you have any other questions.",
+    "kb_topic": "Spotify Availability",
+    "kb_score": 0.2547,
+    "judge_scores": {
+      "factual": 5,
+      "actionability": 5,
+      "tone": 5,
+      "diagnostic": 5
+    },
+    "difficulty": "easy"
+  },
+  {
+    "text": "@115888 my music stops playing once I leave the app. Any suggestions how I can fix that",
+    "gold_intent": "playback_issue",
+    "pred_intent": "playback_issue",
+    "intent_correct": true,
+    "gold_escalate": false,
+    "pred_escalate": true,
+    "escalation_correct": false,
+    "bot_response": "Hey there! That’s a common hiccup, but we can usually fix it with a few quick steps.\n\n1. Force close Spotify completely and reopen it.\n2. If that doesn’t work, log out, restart your device, and log back in.\n3. Check if another app is stealing audio focus or if your internet connection is unstable.\n\nIf the issue persists, please reach out to us at support.spotify.com/contact-spotify-support/ for further assistance.",
+    "kb_topic": "Playback Troubleshooting",
+    "kb_score": 0.5697,
+    "judge_scores": {
+      "factual": 4,
+      "actionability": 4,
+      "tone": 5,
+      "diagnostic": 4
+    },
+    "difficulty": "easy"
+  },
+  {
+    "text": "@117153 Hi there. I'm being charged for Premium Spotify, but my account is not showing anything so i can't cancel. I tried my other emails and they're not showing any Spotify associated with them. My account is __email__",
+    "gold_intent": "subscription_billing",
+    "pred_intent": "subscription_billing",
+    "intent_correct": true,
+    "gold_escalate": false,
+    "pred_escalate": true,
+    "escalation_correct": false,
+    "bot_response": "Hey there! I’m sorry to hear you’re stuck with a charge and can’t see your account details. Since this involves a specific billing issue and account access, I can’t troubleshoot that directly here. Please head over to support.spotify.com/contact-spotify-support/ to get this sorted out. They can verify your account status and help with the cancellation. Thanks for your patience!",
+    "kb_topic": "Cancel Premium",
+    "kb_score": 0.6599,
+    "judge_scores": {
+      "factual": 5,
+      "actionability": 2,
+      "tone": 4,
+      "diagnostic": 3
+    },
+    "difficulty": "easy"
+  },
+  {
+    "text": "so yeah i forgot my spotify email and password urgh😫 wasted premium!!!",
+    "gold_intent": "account_access",
+    "pred_intent": "account_access",
+    "intent_correct": true,
+    "gold_escalate": false,
+    "pred_escalate": true,
+    "escalation_correct": false,
+    "bot_response": "No worries, we can definitely help you get back in! First, try using the \"Forgot Password\" link on the login page to reset your credentials. If you don't remember the email, you can try logging in with your Facebook, Apple, or Google account if you linked one previously. If you're still stuck, please reach out to our support team at support.spotify.com/contact-spotify-support/ for further assistance.",
+    "kb_topic": "Protect Your Account",
+    "kb_score": 0.6438,
+    "judge_scores": {
+      "factual": 4,
+      "actionability": 4,
+      "tone": 4,
+      "diagnostic": 4
+    },
+    "difficulty": "easy"
+  },
+  {
+    "text": "@115888 I get this problem from time to time. I need to redownload all the songs that I've already downloaded months ago. ?? #Spotify",
+    "gold_intent": "download_offline",
+    "pred_intent": "download_offline",
+    "intent_correct": true,
+    "gold_escalate": false,
+    "pred_escalate": false,
+    "escalation_correct": true,
+    "bot_response": "Hey there! That sounds frustrating, but it usually happens if you haven't connected to the internet in over 30 days or if you've hit the limit of 5 offline devices. Here is how to fix it:\n\n1. Check your offline devices at spotify.com/account to ensure you aren't over the 5-device limit.\n2. Make sure you connect to the internet at least once every 30 days to keep your downloads active.\n3. Verify you have enough storage space, then try re-downloading your playlists.\n4. If the issue persists, reinstall the app and download your music again.\n\nLet us know if that helps!",
+    "kb_topic": "Downloads Unexpectedly Removed",
+    "kb_score": 0.6071,
+    "judge_scores": {
+      "factual": 5,
+      "actionability": 5,
+      "tone": 5,
+      "diagnostic": 5
+    },
+    "difficulty": "easy"
+  },
+  {
+    "text": "@SpotifyCares please help every time I press shuffle my music just plays in the order it was saved in",
+    "gold_intent": "shuffle_queue",
+    "pred_intent": "shuffle_queue",
+    "intent_correct": true,
+    "gold_escalate": false,
+    "pred_escalate": true,
+    "escalation_correct": false,
+    "bot_response": "Hey! It sounds like your shuffle mode might be toggled off, which makes tracks play in their saved order. Here is how to fix it:\n\n1. Tap the shuffle icon in your player to ensure it is highlighted or active.\n2. If you are on Premium, check your shuffle style to see if you prefer \"Fewer Repeats\" or \"Standard.\"\n3. For Smart Shuffle recommendations, you can manage them in Profile > Settings and privacy > Playback.\n4. If it still acts up, try logging out and back in to refresh your session.\n5. If the issue persists, please reach out to us at support.spotify.com/contact-spotify-support/ for further assistance.",
+    "kb_topic": "Shuffle",
+    "kb_score": 0.6293,
+    "judge_scores": {
+      "factual": 5,
+      "actionability": 5,
+      "tone": 5,
+      "diagnostic": 5
+    },
+    "difficulty": "easy"
+  },
+  {
+    "text": "@SpotifyCares Hey, my problem: spotify-App doesn't open any more. I use WP 8, actualized, even tried to download it new - what can I do?",
+    "gold_intent": "playback_issue",
+    "pred_intent": "playback_issue",
+    "intent_correct": true,
+    "gold_escalate": false,
+    "pred_escalate": true,
+    "escalation_correct": false,
+    "bot_response": "Hey there! I'm sorry to hear Spotify won't open on your Windows Phone. Since you've already tried reinstalling, let's try a few other quick fixes.\n\n1. Force close the app completely and then reopen it.\n2. Check your internet connection by switching between WiFi and mobile data.\n3. Ensure your device storage isn't full, as low space can prevent apps from launching.\n\nIf it still doesn't work, please reach out to our support team at https://support.spotify.com/contact-spotify-support/ for further assistance.",
+    "kb_topic": "Playback Troubleshooting",
+    "kb_score": 0.6597,
+    "judge_scores": {
+      "factual": 4,
+      "actionability": 4,
+      "tone": 5,
+      "diagnostic": 4
+    },
+    "difficulty": "easy"
+  },
+  {
+    "text": "@SpotifyCares restarted my phone, opened spotify, was asked to login again, account is no longer premium and my library is gone.",
+    "gold_intent": "account_access",
+    "pred_intent": "account_access",
+    "intent_correct": true,
+    "gold_escalate": false,
+    "pred_escalate": true,
+    "escalation_correct": false,
+    "bot_response": "Hey there! I’m sorry to hear your account seems to have downgraded and lost your library. First, please try logging out and back in to see if the Premium status returns. If it’s still missing, check your account details at spotify.com/account to ensure your subscription is active. If the issue persists, you can reach out to our team directly at support.spotify.com/contact-spotify-support/ for further assistance.",
+    "kb_topic": "Protect Your Account",
+    "kb_score": 0.5796,
+    "judge_scores": {
+      "factual": 4,
+      "actionability": 4,
+      "tone": 5,
+      "diagnostic": 4
+    },
+    "difficulty": "medium"
+  },
+  {
+    "text": "@SpotifyCares Done.  Thanks in advance!",
+    "gold_intent": "other",
+    "pred_intent": "other",
+    "intent_correct": true,
+    "gold_escalate": true,
+    "pred_escalate": false,
+    "escalation_correct": false,
+    "bot_response": "You’re very welcome! I’m glad I could help point you in the right direction. If you run into any other issues or have more questions, feel free to reach out anytime. Happy listening!",
+    "kb_topic": "Ads on Spotify Free",
+    "kb_score": 0.5401,
+    "judge_scores": {
+      "factual": 5,
+      "actionability": 4,
+      "tone": 5,
+      "diagnostic": 5
+    },
+    "difficulty": "easy"
+  },
+  {
+    "text": "@116380 @115888 lads, I’m just trying to sleep to a fucking sleep playlist and ur ads keep waking me up, evry nite mate. Plz help me out",
+    "gold_intent": "ads_complaints",
+    "pred_intent": "ads_complaints",
+    "intent_correct": true,
+    "gold_escalate": false,
+    "pred_escalate": false,
+    "escalation_correct": true,
+    "bot_response": "Hey there! I totally get how annoying ads can be when you're trying to wind down for sleep. Unfortunately, there isn't a setting to reduce ad frequency on the free tier, so those interruptions are part of the package. To get rid of them completely, you can upgrade to Premium for ad-free listening. Alternatively, if you're on mobile, you can watch a video ad to unlock 30 minutes of ad-free music. Let me know if you have any other questions!",
+    "kb_topic": "Ads on Spotify Free",
+    "kb_score": 0.3067,
+    "judge_scores": {
+      "factual": 5,
+      "actionability": 4,
+      "tone": 4,
+      "diagnostic": 5
+    },
+    "difficulty": "easy"
+  },
+  {
+    "text": "@SpotifyCares On my subscription page, there's nowhere to add a payment option. Just says \"Stay Premium\" and when I click that it errors",
+    "gold_intent": "subscription_billing",
+    "pred_intent": "subscription_billing",
+    "intent_correct": true,
+    "gold_escalate": false,
+    "pred_escalate": true,
+    "escalation_correct": false,
+    "bot_response": "Hey there! I'm sorry to hear you're hitting a snag with your payment options. Here is what you can try to get things sorted:\n\n1. Try accessing your account settings in a private or incognito browser window to clear any cache issues.\n2. If that doesn't work, wait a few hours as it might be a temporary connection glitch on our end.\n3. You can also try adding a different payment method to see if that resolves the error.\n\nIf the problem persists, please reach out to our support team directly at support.spotify.com/contact-spotify-support/ for further assistance.",
+    "kb_topic": "Failed Payment",
+    "kb_score": 0.6966,
+    "judge_scores": {
+      "factual": 4,
+      "actionability": 4,
+      "tone": 5,
+      "diagnostic": 4
+    },
+    "difficulty": "easy"
+  },
+  {
+    "text": "@SpotifyCares I'm Canadian living in US and trying to purchase the $0.99 promo, but it keeps telling me my Canadian Postal Code is not valid. https://t.co/W9M3qojwqL",
+    "gold_intent": "subscription_billing",
+    "pred_intent": "subscription_billing",
+    "intent_correct": true,
+    "gold_escalate": false,
+    "pred_escalate": true,
+    "escalation_correct": false,
+    "bot_response": "Hey there! It looks like your account is registered in Canada, so the system is expecting a Canadian postal code rather than a US one. Since your payment method and account country must match, you’ll need to use a valid Canadian postal code to proceed with the purchase. If you’re actually trying to switch your account to the US, that’s a more complex process that requires specific steps. For help with changing your account region or resolving this specific error, please reach out to us directly at support.spotify.com/contact-spotify-support/.",
+    "kb_topic": "Failed Payment",
+    "kb_score": 0.4748,
+    "judge_scores": {
+      "factual": 2,
+      "actionability": 2,
+      "tone": 4,
+      "diagnostic": 2
+    },
+    "difficulty": "medium"
+  },
+  {
+    "text": "@117153 i cant access my spotify premium. can you help?",
+    "gold_intent": "account_access",
+    "pred_intent": "account_access",
+    "intent_correct": true,
+    "gold_escalate": false,
+    "pred_escalate": true,
+    "escalation_correct": false,
+    "bot_response": "Hey! I'm sorry you're locked out, but I can help you get back in. First, try resetting your password at spotify.com/password-reset and make sure you're using the correct login method (email, Apple, or Google). If that doesn't work, check that you can access the email address linked to your account. If you're still stuck, please reach out to our team directly at support.spotify.com/contact-spotify-support/ for further assistance.",
+    "kb_topic": "Protect Your Account",
+    "kb_score": 0.57,
+    "judge_scores": {
+      "factual": 4,
+      "actionability": 4,
+      "tone": 4,
+      "diagnostic": 4
+    },
+    "difficulty": "medium"
+  },
+  {
+    "text": "@SpotifyCares I'm trying to change my payment method and it won't work. Please send help!",
+    "gold_intent": "subscription_billing",
+    "pred_intent": "subscription_billing",
+    "intent_correct": true,
+    "gold_escalate": false,
+    "pred_escalate": true,
+    "escalation_correct": false,
+    "bot_response": "Hey there! I’m sorry to hear you’re having trouble updating your payment details. Here is how you can fix it:\n\n1. Go to spotify.com/account and navigate to the \"Payment methods\" section.\n2. Select \"Change\" for your existing method or \"Add\" for a new one.\n3. Confirm the update by clicking \"Add/Change payment method.\"\n\nIf it still won’t work, please check that your card has sufficient funds and is enabled for online purchases. If the issue persists, you can reach out to our support team at support.spotify.com/contact-spotify-support/ for further assistance.",
+    "kb_topic": "Change Payment Details",
+    "kb_score": 0.7335,
+    "judge_scores": {
+      "factual": 5,
+      "actionability": 5,
+      "tone": 5,
+      "diagnostic": 5
+    },
+    "difficulty": "easy"
+  },
+  {
+    "text": "@SpotifyCares please can I have some help accessing my account?",
+    "gold_intent": "account_access",
+    "pred_intent": "account_access",
+    "intent_correct": true,
+    "gold_escalate": false,
+    "pred_escalate": true,
+    "escalation_correct": false,
+    "bot_response": "Hey there! I'm sorry you're having trouble getting into your account. Could you let me know what specific error message you see when you try to log in? Also, are you using your email, Facebook, Apple, or Google to sign in? If you've already tried resetting your password, please reach out to our support team directly at support.spotify.com/contact-spotify-support/ for further assistance. We're here to help you get back to your music!",
+    "kb_topic": "Protect Your Account",
+    "kb_score": 0.6322,
+    "judge_scores": {
+      "factual": 5,
+      "actionability": 4,
+      "tone": 5,
+      "diagnostic": 5
+    },
+    "difficulty": "easy"
+  },
+  {
+    "text": "WTF!!! I had @115888 premium, &amp; now it's gone!!! 😒 what happened??? @SpotifyCares",
+    "gold_intent": "subscription_billing",
+    "pred_intent": "subscription_billing",
+    "intent_correct": true,
+    "gold_escalate": false,
+    "pred_escalate": true,
+    "escalation_correct": false,
+    "bot_response": "Hey there! I’m sorry to hear your Premium access disappeared; that’s definitely frustrating. To help figure out what happened, could you check your payment history at spotify.com/account to see if there were any failed transactions? If you see a failed payment, try retrying it in a private browser window or using a different payment method. If everything looks okay on your end, please reach out to us directly at support.spotify.com/contact-spotify-support/ so we can investigate further. We’re here to help get you back up and running!",
+    "kb_topic": "Failed Payment",
+    "kb_score": 0.5352,
+    "judge_scores": {
+      "factual": 4,
+      "actionability": 4,
+      "tone": 5,
+      "diagnostic": 4
+    },
+    "difficulty": "easy"
+  },
+  {
+    "text": "@SpotifyCares make your app compatible for iPhone X",
+    "gold_intent": "feature_request",
+    "pred_intent": "device_compatibility",
+    "intent_correct": false,
+    "gold_escalate": false,
+    "pred_escalate": true,
+    "escalation_correct": false,
+    "bot_response": "Hey there! Good news, Spotify is fully compatible with the iPhone X and all other modern iOS devices. If you're running into trouble, make sure your phone is updated to the latest iOS version and that the Spotify app is up to date. You can also try restarting your phone and the app to clear any glitches. If issues persist, please reach out to us at support.spotify.com/contact-spotify-support/ so we can help you out!",
+    "kb_topic": "Spotify on PlayStation",
+    "kb_score": 0.5027,
+    "judge_scores": {
+      "factual": 1,
+      "actionability": 3,
+      "tone": 5,
+      "diagnostic": 1
+    },
+    "difficulty": "easy"
+  },
+  {
+    "text": "@115888 bring back the hold to preview feature please god",
+    "gold_intent": "feature_request",
+    "pred_intent": "feature_request",
+    "intent_correct": true,
+    "gold_escalate": false,
+    "pred_escalate": false,
+    "escalation_correct": true,
+    "bot_response": "Thanks for the suggestion! You can vote for this on the Spotify Community Ideas board — the more votes, the more likely it'll be considered.\n\n1. Visit community.spotify.com\n2. Search if your idea already exists\n3. If it exists, vote for it\n4. If not, create a new idea post\n\nPopular ideas are reviewed by the Spotify team.",
+    "kb_topic": "How to Request Features",
+    "kb_score": 0.1363,
+    "judge_scores": {
+      "factual": 5,
+      "actionability": 5,
+      "tone": 4,
+      "diagnostic": 5
+    },
+    "difficulty": "easy"
+  },
+  {
+    "text": "@SpotifyCares I’m desperate to get back my Spotify account. Can’t remember password or email.. HELP PLEASEEEEE",
+    "gold_intent": "account_access",
+    "pred_intent": "account_access",
+    "intent_correct": true,
+    "gold_escalate": false,
+    "pred_escalate": true,
+    "escalation_correct": false,
+    "bot_response": "Hey there! I totally get the panic, but let’s try to sort this out step by step.\n\n1. First, check your email providers (like Gmail or Outlook) to see if you can find the original sign-up email.\n2. If you find it, head to spotify.com/password-reset to try and recover your login details.\n3. If you simply cannot access the email address on the account, you’ll need to reach out to our team directly.\n4. Please visit support.spotify.com/contact-spotify-support/ so they can verify your identity and help you regain access.\n5. Keep an eye on your inbox for their response, as they may need a bit of time to review your case.",
+    "kb_topic": "Protect Your Account",
+    "kb_score": 0.627,
+    "judge_scores": {
+      "factual": 4,
+      "actionability": 5,
+      "tone": 5,
+      "diagnostic": 5
+    },
+    "difficulty": "easy"
+  },
+  {
+    "text": "@SpotifyCares now I’m paying 10.69 a month without Hulu. Can you help me out",
+    "gold_intent": "subscription_billing",
+    "pred_intent": "subscription_billing",
+    "intent_correct": true,
+    "gold_escalate": false,
+    "pred_escalate": true,
+    "escalation_correct": false,
+    "bot_response": "Hey there! I’m sorry to hear you’re seeing a charge without the Hulu bundle. Since the Student plan is $6.99 with Hulu, a $10.69 charge suggests your account might have switched to a different tier or there’s a billing error.\n\n1. Log in at spotify.com/account to check your current plan details.\n2. Verify if your student verification has expired, which would revert you to a standard plan.\n3. If the plan looks correct but the price is wrong, please contact our support team directly at support.spotify.com/contact-spotify-support/ for a manual review.\n\nLet me know if you need help finding those settings!",
+    "kb_topic": "Premium Plans",
+    "kb_score": 0.6892,
+    "judge_scores": {
+      "factual": 5,
+      "actionability": 4,
+      "tone": 5,
+      "diagnostic": 5
+    },
+    "difficulty": "easy"
+  },
+  {
+    "text": "@SpotifyCares It's happening when I shuffle my songs library. I'll DM you my account details",
+    "gold_intent": "shuffle_queue",
+    "pred_intent": "shuffle_queue",
+    "intent_correct": true,
+    "gold_escalate": false,
+    "pred_escalate": true,
+    "escalation_correct": false,
+    "bot_response": "Hey! Thanks for reaching out. To help troubleshoot, could you let me know if you're on Free or Premium and what device you're using? Also, are you playing a specific playlist or your entire library? If it persists, please contact us directly at support.spotify.com/contact-spotify-support/ for further assistance.",
+    "kb_topic": "Shuffle",
+    "kb_score": 0.5711,
+    "judge_scores": {
+      "factual": 5,
+      "actionability": 3,
+      "tone": 4,
+      "diagnostic": 4
+    },
+    "difficulty": "easy"
+  },
+  {
+    "text": "@Spotifycares my navigation at the bottom of the screen went away?? Also the UX on an iPhone X needs some help pls let me know if I should start a https://t.co/ERiUjpJUMS petition. https://t.co/4mXNaUY8cV",
+    "gold_intent": "device_compatibility",
+    "pred_intent": "feature_request",
+    "intent_correct": false,
+    "gold_escalate": false,
+    "pred_escalate": true,
+    "escalation_correct": false,
+    "bot_response": "Hey! I’m sorry the navigation bar disappeared on your iPhone X. First, try force-closing the app and reopening it to see if that fixes the glitch. If it’s still missing, please visit support.spotify.com/contact-spotify-support/ for personalized help. You can also share your UX feedback on the Spotify Community Ideas board at community.spotify.com. Thanks for letting us know!",
+    "kb_topic": "How to Request Features",
+    "kb_score": 0.2767,
+    "judge_scores": {
+      "factual": 5,
+      "actionability": 4,
+      "tone": 5,
+      "diagnostic": 4
+    },
+    "difficulty": "easy"
+  },
+  {
+    "text": "@SpotifyCares Where to go for the student discounts?",
+    "gold_intent": "subscription_billing",
+    "pred_intent": "subscription_billing",
+    "intent_correct": true,
+    "gold_escalate": false,
+    "pred_escalate": true,
+    "escalation_correct": false,
+    "bot_response": "Hey there! You can check your eligibility for the Student plan right on our website. Just head to spotify.com/us/student to verify your status and get started. Keep in mind this discount is currently only available for college students. If you run into any trouble during the verification process, please reach out to us at support.spotify.com/contact-spotify-support/ for help. Happy listening!",
+    "kb_topic": "Cancel Premium",
+    "kb_score": 0.511,
+    "judge_scores": {
+      "factual": 1,
+      "actionability": 4,
+      "tone": 5,
+      "diagnostic": 1
+    },
+    "difficulty": "easy"
+  },
+  {
+    "text": "@SpotifyCares I think someone is using my account. Cause I want to listen to music and somone always change it.",
+    "gold_intent": "account_access",
+    "pred_intent": "account_access",
+    "intent_correct": true,
+    "gold_escalate": true,
+    "pred_escalate": true,
+    "escalation_correct": true,
+    "bot_response": "Hey there! That sounds super annoying, but let’s get your account secured right away. Here is what you need to do:\n\n1. Reset your password immediately at spotify.com/password-reset.\n2. Go to spotify.com/account and select \"Sign out everywhere\" under Security and privacy.\n3. Remove any unrecognized third-party apps from your account settings.\n4. Check your email address to ensure it hasn't been changed by the intruder.\n\nIf you still can’t access your account after these steps, please contact us directly at support.spotify.com/contact-spotify-support/ for further help!",
+    "kb_topic": "Protect Your Account",
+    "kb_score": 0.6631,
+    "judge_scores": {
+      "factual": 5,
+      "actionability": 5,
+      "tone": 5,
+      "diagnostic": 5
+    },
+    "difficulty": "easy"
+  },
+  {
+    "text": "@SpotifyCares why it takes so long to upgrade to premium? Can't load anything and just stuck here since 4 hours ago. https://t.co/KUbKQyIL21",
+    "gold_intent": "subscription_billing",
+    "pred_intent": "subscription_billing",
+    "intent_correct": true,
+    "gold_escalate": false,
+    "pred_escalate": true,
+    "escalation_correct": false,
+    "bot_response": "Hey there! I’m sorry to hear you’ve been stuck for four hours, that sounds incredibly frustrating. It’s likely a temporary connection issue or a glitch with your payment method that’s causing the delay.\n\n1. Try refreshing the page or restarting your device.\n2. Check your payment history at spotify.com/account to ensure the card is valid and has sufficient funds.\n3. If it’s still stuck, please reach out to our support team directly at support.spotify.com/contact-spotify-support/ for further assistance.",
+    "kb_topic": "Failed Payment",
+    "kb_score": 0.5036,
+    "judge_scores": {
+      "factual": 3,
+      "actionability": 4,
+      "tone": 5,
+      "diagnostic": 4
+    },
+    "difficulty": "easy"
+  },
+  {
+    "text": "@116130 @115888 hello Spotify. Can you advise if you are working on equaliser settings for Chromecast? The sound is flat without it...",
+    "gold_intent": "device_compatibility",
+    "pred_intent": "device_compatibility",
+    "intent_correct": true,
+    "gold_escalate": false,
+    "pred_escalate": false,
+    "escalation_correct": true,
+    "bot_response": "Hey there! I don't have any official updates on new equalizer features for Chromecast just yet. Since Chromecast Audio doesn't currently support custom EQ settings within the Spotify app, the sound profile is determined by the device itself. You might want to check if your Chromecast device has its own built-in audio settings or use a compatible external speaker with EQ controls. For the latest feature requests, keep an eye on the Spotify community forums!",
+    "kb_topic": "Spotify on Speakers",
+    "kb_score": 0.5577,
+    "judge_scores": {
+      "factual": 4,
+      "actionability": 3,
+      "tone": 4,
+      "diagnostic": 4
+    },
+    "difficulty": "medium"
+  },
+  {
+    "text": "@115888 when will astros new albums be added pls and thanks",
+    "gold_intent": "content_availability",
+    "pred_intent": "content_availability",
+    "intent_correct": true,
+    "gold_escalate": false,
+    "pred_escalate": false,
+    "escalation_correct": true,
+    "bot_response": "Hey there! New albums usually appear on Spotify as soon as the label releases them, so keep an eye out! Here is what you can do in the meantime:\n\n1. Follow the artist's profile to get notified when new music drops.\n2. Check if the album is available in a different region, as licensing can vary by country.\n3. If it’s been a while, you can request the content via the Spotify Community forums.\n\nLet me know if you need help finding anything else! 🎧",
+    "kb_topic": "Why Content Is Missing",
+    "kb_score": 0.265,
+    "judge_scores": {
+      "factual": 4,
+      "actionability": 4,
+      "tone": 5,
+      "diagnostic": 4
+    },
+    "difficulty": "easy"
+  },
+  {
+    "text": "Any ideas why all my @115888 downloads have cleared themselves?",
+    "gold_intent": "download_offline",
+    "pred_intent": "download_offline",
+    "intent_correct": true,
+    "gold_escalate": false,
+    "pred_escalate": false,
+    "escalation_correct": true,
+    "bot_response": "Hey! That’s super frustrating, but it usually happens if you’ve exceeded the 5-device limit or haven’t gone online in 30 days. First, check your offline devices at spotify.com/account to see if you need to remove any old ones. You should also make sure you have enough storage space and connect to the internet to refresh your library. If it keeps happening, try reinstalling the app and downloading your tracks again. Let me know if that helps!",
+    "kb_topic": "Downloads Unexpectedly Removed",
+    "kb_score": 0.4358,
+    "judge_scores": {
+      "factual": 5,
+      "actionability": 5,
+      "tone": 5,
+      "diagnostic": 5
+    },
+    "difficulty": "easy"
+  },
+  {
+    "text": "@spotifycares Hi there, I can’t log in after the payment for my subscription went wrong. I keep getting code 3 and unable to reset password",
+    "gold_intent": "account_access",
+    "pred_intent": "account_access",
+    "intent_correct": true,
+    "gold_escalate": false,
+    "pred_escalate": true,
+    "escalation_correct": false,
+    "bot_response": "Hey there! I’m sorry to hear you’re having trouble getting back into your account. Since you’re seeing error code 3 and can’t reset your password, this likely needs a closer look by our team. Please head to support.spotify.com/contact-spotify-support/ to chat with an agent directly. They can verify your identity and help restore your access securely. Thanks for your patience!",
+    "kb_topic": "Protect Your Account",
+    "kb_score": 0.5625,
+    "judge_scores": {
+      "factual": 5,
+      "actionability": 3,
+      "tone": 5,
+      "diagnostic": 4
+    },
+    "difficulty": "easy"
+  },
+  {
+    "text": "@115888 can someone please get a hold of me,,,,, i need a refund and cancel, i have email and tweeted your spotifycare and get no response",
+    "gold_intent": "subscription_billing",
+    "pred_intent": "subscription_billing",
+    "intent_correct": true,
+    "gold_escalate": true,
+    "pred_escalate": true,
+    "escalation_correct": true,
+    "bot_response": "Hey there! I’m sorry to hear you’re having trouble reaching us, but I can help you get sorted right here. To cancel your Premium subscription, please follow these steps:\n\n1. Go to your account page at spotify.com/account.\n2. Click on \"Manage your plan.\"\n3. Select \"Cancel subscription.\"\n\nPlease note that your Premium access will continue until your next billing date, after which it will switch to the free tier. If you are specifically requesting a refund or facing a payment issue that requires a human review, please visit support.spotify.com/contact-spotify-support/ directly, as I cannot process refunds myself.",
+    "kb_topic": "Failed Payment",
+    "kb_score": 0.5569,
+    "judge_scores": {
+      "factual": 5,
+      "actionability": 5,
+      "tone": 5,
+      "diagnostic": 4
+    },
+    "difficulty": "easy"
+  },
+  {
+    "text": "@SpotifyCares I'm on Android (a Pixel specifically) and when I'm casting my phone's volume keys/media controls menus don't adjust the Chromecast volume like they used to (in or out of the actual Spotify app).",
+    "gold_intent": "device_compatibility",
+    "pred_intent": "device_compatibility",
+    "intent_correct": true,
+    "gold_escalate": false,
+    "pred_escalate": true,
+    "escalation_correct": false,
+    "bot_response": "Hey! That sounds like a frustrating glitch with your Pixel and Chromecast. Here are a few quick steps to try and get those controls working again:\n\n1. Make sure both your phone and Chromecast are on the same WiFi network and running the latest software updates.\n2. Restart your Spotify app, your Pixel, and your Chromecast to clear any temporary connection errors.\n3. If that doesn't help, try unpairing the Chromecast and reconnecting it via Spotify Connect.\n\nIf the issue persists after these steps, please reach out to our support team at support.spotify.com/contact-spotify-support/ for further assistance.",
+    "kb_topic": "Spotify on Speakers",
+    "kb_score": 0.4602,
+    "judge_scores": {
+      "factual": 4,
+      "actionability": 4,
+      "tone": 5,
+      "diagnostic": 4
+    },
+    "difficulty": "easy"
+  },
+  {
+    "text": "hey @181186 do you accept payment via debit card? And if so, how do I go about this? I only see the credit card option. Please respond, thank you! 😉",
+    "gold_intent": "subscription_billing",
+    "pred_intent": "subscription_billing",
+    "intent_correct": true,
+    "gold_escalate": false,
+    "pred_escalate": true,
+    "escalation_correct": false,
+    "bot_response": "Hey there! Yes, Spotify generally accepts debit cards as long as they have a Visa, Mastercard, or American Express logo. To add one, just head to spotify.com/account, click on \"Payment methods,\" and select \"Add\" to enter your new card details. If you're only seeing a credit card option, double-check that your debit card is enabled for online and recurring purchases by your bank. If it still doesn't work, you can reach out to our team at support.spotify.com/contact-spotify-support/ for a hand. Let me know if you need anything else! 🎧",
+    "kb_topic": "Change Payment Details",
+    "kb_score": 0.3991,
+    "judge_scores": {
+      "factual": 5,
+      "actionability": 5,
+      "tone": 5,
+      "diagnostic": 5
+    },
+    "difficulty": "easy"
+  },
+  {
+    "text": "@SpotifyCares I am having problems connecting my student account to the Hulu page. Every time I try it tells me it is unavailable. Help pls!",
+    "gold_intent": "subscription_billing",
+    "pred_intent": "subscription_billing",
+    "intent_correct": true,
+    "gold_escalate": false,
+    "pred_escalate": true,
+    "escalation_correct": false,
+    "bot_response": "Hey there! I’m sorry to hear you’re having trouble linking your Hulu subscription. Please try these steps to fix it:\n\n1. Ensure your Student plan is active and your payment method is valid.\n2. Log out of both Spotify and Hulu, then log back in.\n3. Wait a few hours, as this may be a temporary connection issue.\n4. If it persists, contact your bank to ensure online purchases are enabled.\n\nIf you’re still stuck, please reach out to us at support.spotify.com/contact-spotify-support/ for further assistance.",
+    "kb_topic": "Failed Payment",
+    "kb_score": 0.4803,
+    "judge_scores": {
+      "factual": 3,
+      "actionability": 4,
+      "tone": 5,
+      "diagnostic": 3
+    },
+    "difficulty": "easy"
+  },
+  {
+    "text": "@SpotifyCares Are there any known issues with Spotify running on High Sierra? Whenever I play music, my whole Macbook goes really slow, scrolling is juddery and keyboard cannot keep up with typing. Stops when I stop playing music, even with app still open?",
+    "gold_intent": "device_compatibility",
+    "pred_intent": "playback_issue",
+    "intent_correct": false,
+    "gold_escalate": false,
+    "pred_escalate": true,
+    "escalation_correct": false,
+    "bot_response": "Hey there! Sorry to hear your MacBook is struggling with High Sierra. Here’s what you can try to fix the lag:\n\n1. Force close Spotify completely (check the system tray) and relaunch it.\n2. Ensure your macOS and Spotify app are fully updated to the latest versions.\n3. Check if other apps are hogging resources, as audio focus conflicts can cause system slowdowns.\n4. If it persists, try logging out, restarting your device, and logging back in.\n\nIf these steps don’t help, please reach out to us at support.spotify.com/contact-spotify-support/ for further assistance!",
+    "kb_topic": "Playback Troubleshooting",
+    "kb_score": 0.6089,
+    "judge_scores": {
+      "factual": 3,
+      "actionability": 4,
+      "tone": 5,
+      "diagnostic": 3
+    },
+    "difficulty": "easy"
+  },
+  {
+    "text": "@SpotifyCares Hello, I have upgraded to Family but every time I try to add a user, I get a blank page. Can you help please? thank you",
+    "gold_intent": "subscription_billing",
+    "pred_intent": "account_access",
+    "intent_correct": false,
+    "gold_escalate": false,
+    "pred_escalate": true,
+    "escalation_correct": false,
+    "bot_response": "Hey there! Sorry to hear you're hitting a blank page while adding your family members. Here are a few quick steps to try:\n\n1. Clear your browser cache and cookies, then refresh the page.\n2. Try accessing your account via a different browser or in incognito mode.\n3. Ensure you are logged in as the Family plan manager at spotify.com/account.\n\nIf the issue persists, please reach out to our support team directly at support.spotify.com/contact-spotify-support/ for further assistance. We hope this helps you get your family set up soon!",
+    "kb_topic": "Protect Your Account",
+    "kb_score": 0.3128,
+    "judge_scores": {
+      "factual": 5,
+      "actionability": 4,
+      "tone": 5,
+      "diagnostic": 4
+    },
+    "difficulty": "easy"
+  },
+  {
+    "text": "@SpotifyCares Hi, is there a problem with your site? I can't access the page to create a widget for my website.",
+    "gold_intent": "other",
+    "pred_intent": "other",
+    "intent_correct": true,
+    "gold_escalate": true,
+    "pred_escalate": true,
+    "escalation_correct": true,
+    "bot_response": "Hey there! I’m not aware of a specific outage, but it’s always good to double-check your connection. Here’s what you can try:\n\n1. Clear your browser cache or try a different browser.\n2. Make sure you’re logged into your Spotify account.\n3. Check if any pop-up blockers are preventing the widget page from loading.\n\nIf it’s still not working, please reach out to our support team at support.spotify.com/contact-spotify-support/ for further assistance.",
+    "kb_topic": "Spotify on PlayStation",
+    "kb_score": 0.4116,
+    "judge_scores": {
+      "factual": 1,
+      "actionability": 4,
+      "tone": 4,
+      "diagnostic": 2
+    },
+    "difficulty": "medium"
+  },
+  {
+    "text": "Goodbye @115888, cancelling and moving to Apple Music because there is no app for Apple Watch (I need/use for working out) @SpotifyCares",
+    "gold_intent": "device_compatibility",
+    "pred_intent": "feature_request",
+    "intent_correct": false,
+    "gold_escalate": false,
+    "pred_escalate": false,
+    "escalation_correct": true,
+    "bot_response": "I’m sorry to hear you’re switching over! You can vote for the Apple Watch app idea on the Spotify Community Ideas board at community.spotify.com to help push it forward. If you decide to stay, you can manage your plan at spotify.com/account. Thanks for being part of the Spotify family, and we hope to see you again soon!",
+    "kb_topic": "How to Request Features",
+    "kb_score": 0.3351,
+    "judge_scores": {
+      "factual": 5,
+      "actionability": 4,
+      "tone": 5,
+      "diagnostic": 4
+    },
+    "difficulty": "easy"
+  },
+  {
+    "text": "Hi @115888 \nwhy isn't Dr Dre's album \"Compton\" not available for streaming?",
+    "gold_intent": "content_availability",
+    "pred_intent": "content_availability",
+    "intent_correct": true,
+    "gold_escalate": false,
+    "pred_escalate": false,
+    "escalation_correct": true,
+    "bot_response": "Hey there! I’m sorry to hear you can’t stream Dr. Dre’s *Compton* right now. Here is why that might be happening and what you can do:\n\n1.  **Check your region:** Licensing agreements vary by country, so the album might be region-locked or temporarily unavailable in your specific area.\n2.  **Look for greyed-out tracks:** If the album shows up but the songs are greyed out, it means the content exists but isn't available for streaming in your region yet.\n3.  **Try logging out and back in:** Sometimes a quick refresh helps sync your library, so try logging out of the app and logging back in.\n4.  **Check alternate versions:** You might find a different compilation or version of the tracks available in your region.\n5.  **Follow the artist:** If you follow Dr. Dre, you’ll get notified if the album becomes available in your area.",
+    "kb_topic": "Why Content Is Missing",
+    "kb_score": 0.4395,
+    "judge_scores": {
+      "factual": 5,
+      "actionability": 4,
+      "tone": 5,
+      "diagnostic": 5
+    },
+    "difficulty": "easy"
+  },
+  {
+    "text": "@SpotifyCares please I would like to report an error I noticed on the details of one of my favourite tracks on Spotify https://t.co/WuOqizEmSs",
+    "gold_intent": "other",
+    "pred_intent": "other",
+    "intent_correct": true,
+    "gold_escalate": true,
+    "pred_escalate": true,
+    "escalation_correct": true,
+    "bot_response": "Hey there! Thanks for flagging that for us. Since I can’t access external links or verify specific track details directly, I can’t fix that error myself. If this is an account or billing issue, please head to support.spotify.com/contact-spotify-support/ for help. For general content questions, you might also want to check the Spotify Community forums. Thanks for your patience!",
+    "kb_topic": "Why Content Is Missing",
+    "kb_score": 0.5349,
+    "judge_scores": {
+      "factual": 2,
+      "actionability": 2,
+      "tone": 4,
+      "diagnostic": 2
+    },
+    "difficulty": "medium"
+  },
+  {
+    "text": "@SpotifyCares Hi! I'm trying to upgrade my account (I was previously in a family plan, but not anymore) and it's not accepting my CC?",
+    "gold_intent": "subscription_billing",
+    "pred_intent": "subscription_billing",
+    "intent_correct": true,
+    "gold_escalate": false,
+    "pred_escalate": true,
+    "escalation_correct": false,
+    "bot_response": "Hey there! I’m sorry to hear you’re hitting a snag with your upgrade. Here’s what you can try to get that card accepted:\n\n1. Try retrying the payment in a private or incognito browser window.\n2. Ensure your card has sufficient funds and is enabled for recurring and foreign online purchases.\n3. Double-check that the card is registered in the same country as your Spotify account.\n4. If it still fails, wait a few hours in case it’s a temporary connection issue.\n\nIf none of that works, please reach out to our support team at support.spotify.com/contact-spotify-support/ for further assistance!",
+    "kb_topic": "Change Payment Details",
+    "kb_score": 0.5249,
+    "judge_scores": {
+      "factual": 2,
+      "actionability": 3,
+      "tone": 5,
+      "diagnostic": 2
+    },
+    "difficulty": "easy"
+  },
+  {
+    "text": "@117153 I paid for Spotify premium for the full year, I have the receipt in my emails. My premium is not working.",
+    "gold_intent": "subscription_billing",
+    "pred_intent": "subscription_billing",
+    "intent_correct": true,
+    "gold_escalate": false,
+    "pred_escalate": true,
+    "escalation_correct": false,
+    "bot_response": "Hey! I’m sorry to hear your Premium isn’t kicking in after that yearly payment. Since you have the receipt, this might be a sync issue that needs a closer look.\n\n1. Check your payment history at spotify.com/account to see if the charge is listed as successful.\n2. Try logging out and back in, or restarting your app to refresh your status.\n3. If it’s still not working, please visit support.spotify.com/contact-spotify-support/ so a human can review your receipt and fix it.\n\nWe’ll get you sorted out!",
+    "kb_topic": "Failed Payment",
+    "kb_score": 0.618,
+    "judge_scores": {
+      "factual": 2,
+      "actionability": 4,
+      "tone": 5,
+      "diagnostic": 3
+    },
+    "difficulty": "easy"
+  },
+  {
+    "text": "@SpotifyCares how do you save albums on the new format",
+    "gold_intent": "playlist_library",
+    "pred_intent": "playlist_library",
+    "intent_correct": true,
+    "gold_escalate": false,
+    "pred_escalate": false,
+    "escalation_correct": true,
+    "bot_response": "Hey there! To save an album, just tap the \"Save\" button on the album page, and it will automatically appear in your \"Your Library\" section. You can also find it under \"Albums\" within your library for easy access. If you don't see it, try logging out and back in to refresh your view. Let me know if you need any more help!",
+    "kb_topic": "Change Payment Details",
+    "kb_score": 0.4798,
+    "judge_scores": {
+      "factual": 1,
+      "actionability": 4,
+      "tone": 5,
+      "diagnostic": 1
+    },
+    "difficulty": "easy"
+  },
+  {
+    "text": "@115888 you can pre-save music??? Do tell",
+    "gold_intent": "other",
+    "pred_intent": "feature_request",
+    "intent_correct": false,
+    "gold_escalate": true,
+    "pred_escalate": true,
+    "escalation_correct": true,
+    "bot_response": "That’s awesome that you found a way to pre-save! Since I don’t have specific details on that new feature, I’d recommend checking the Spotify Community Ideas board to see if there’s a discussion or vote for it. You can also share your own feature requests there to help get them noticed by the team. If you run into any account issues while exploring, just head to support.spotify.com/contact-spotify-support/ for help. Happy listening!",
+    "kb_topic": "How to Request Features",
+    "kb_score": 0.1961,
+    "judge_scores": {
+      "factual": 2,
+      "actionability": 3,
+      "tone": 4,
+      "diagnostic": 2
+    },
+    "difficulty": "easy"
+  },
+  {
+    "text": "@SpotifyCares I received a charge to my checking account from \"Spotify USA\" 10/27 I am confident that I have never signed up for an account.",
+    "gold_intent": "subscription_billing",
+    "pred_intent": "subscription_billing",
+    "intent_correct": true,
+    "gold_escalate": false,
+    "pred_escalate": true,
+    "escalation_correct": false,
+    "bot_response": "Hey there! That definitely sounds confusing, especially if you don't recall signing up. Here is what you can do to resolve this:\n\n1. Check your email for any confirmation or receipt from Spotify to see if you might have accidentally created an account.\n2. If you find an account, log in at spotify.com/account to review your payment history and cancel the subscription.\n3. If you cannot find an account or are unsure how to proceed, please contact us directly at support.spotify.com/contact-spotify-support/ for help.\n4. We recommend contacting your bank as well to dispute the charge if you believe it was unauthorized.\n5. Keep an eye on your email for any further instructions from our support team.",
+    "kb_topic": "Failed Payment",
+    "kb_score": 0.5863,
+    "judge_scores": {
+      "factual": 2,
+      "actionability": 4,
+      "tone": 5,
+      "diagnostic": 2
+    },
+    "difficulty": "easy"
+  },
+  {
+    "text": "@SpotifyCares Hey there recently moved from Ireland to China and having trouble logging in to my account on my laptop, Irish and Chinese phone. Just wondering are you available in China? I have a VPN set up and all other apps work such as facebook. Thanks!",
+    "gold_intent": "country_region",
+    "pred_intent": "account_access",
+    "intent_correct": false,
+    "gold_escalate": false,
+    "pred_escalate": true,
+    "escalation_correct": false,
+    "bot_response": "Hey there! Spotify isn't officially available in China yet, which is likely why you're having trouble logging in even with a VPN. Since you recently moved, you can use Spotify abroad for up to 14 days, but you'll need to update your country setting in your account settings after that period. To get this sorted out, please head to support.spotify.com/contact-spotify-support/ for personalized help with your account access. We hope you enjoy your music soon!",
+    "kb_topic": "Protect Your Account",
+    "kb_score": 0.3288,
+    "judge_scores": {
+      "factual": 2,
+      "actionability": 3,
+      "tone": 4,
+      "diagnostic": 2
+    },
+    "difficulty": "easy"
+  },
+  {
+    "text": "@SpotifyCares when will you support Multi-Room on Amazon's Echo devices? I reluctantly canceled Spotify bc you don't support that feature!",
+    "gold_intent": "device_compatibility",
+    "pred_intent": "feature_request",
+    "intent_correct": false,
+    "gold_escalate": false,
+    "pred_escalate": false,
+    "escalation_correct": true,
+    "bot_response": "Thanks for the suggestion! You can vote for this on the Spotify Community Ideas board — the more votes, the more likely it'll be considered. Here’s how to do it:\n\n1. Visit community.spotify.com and search for \"Multi-Room Echo.\"\n2. If the idea exists, click the upvote button to support it.\n3. If it’s not there, create a new post describing the feature.\n4. Popular ideas are regularly reviewed by the Spotify team.\n\nWe hope to see you back on board soon!",
+    "kb_topic": "How to Request Features",
+    "kb_score": 0.3048,
+    "judge_scores": {
+      "factual": 5,
+      "actionability": 5,
+      "tone": 4,
+      "diagnostic": 5
+    },
+    "difficulty": "easy"
+  }
+]

@@ -1,0 +1,97 @@
+{
+  "intent_accuracy": 0.84,
+  "escalation_accuracy": 0.34,
+  "avg_judge": {
+    "factual": 3.8,
+    "actionability": 3.96,
+    "tone": 4.74,
+    "diagnostic": 3.72
+  },
+  "overall_judge": 4.05,
+  "per_intent_f1": {
+    "account_access": {
+      "p": 0.8,
+      "r": 1.0,
+      "f1": 0.889,
+      "n": 8
+    },
+    "ads_complaints": {
+      "p": 1.0,
+      "r": 1.0,
+      "f1": 1.0,
+      "n": 1
+    },
+    "content_availability": {
+      "p": 1.0,
+      "r": 1.0,
+      "f1": 1.0,
+      "n": 2
+    },
+    "country_region": {
+      "p": 1.0,
+      "r": 0.5,
+      "f1": 0.667,
+      "n": 2
+    },
+    "device_compatibility": {
+      "p": 0.667,
+      "r": 0.333,
+      "f1": 0.444,
+      "n": 6
+    },
+    "download_offline": {
+      "p": 1.0,
+      "r": 1.0,
+      "f1": 1.0,
+      "n": 2
+    },
+    "feature_request": {
+      "p": 0.2,
+      "r": 0.5,
+      "f1": 0.286,
+      "n": 2
+    },
+    "other": {
+      "p": 1.0,
+      "r": 0.75,
+      "f1": 0.857,
+      "n": 4
+    },
+    "playback_issue": {
+      "p": 0.75,
+      "r": 1.0,
+      "f1": 0.857,
+      "n": 3
+    },
+    "playlist_library": {
+      "p": 1.0,
+      "r": 1.0,
+      "f1": 1.0,
+      "n": 1
+    },
+    "shuffle_queue": {
+      "p": 1.0,
+      "r": 1.0,
+      "f1": 1.0,
+      "n": 2
+    },
+    "subscription_billing": {
+      "p": 1.0,
+      "r": 0.941,
+      "f1": 0.97,
+      "n": 17
+    }
+  },
+  "by_difficulty": {
+    "easy": {
+      "n": 43,
+      "intent_acc": 0.814,
+      "avg_judge": 4.16
+    },
+    "medium": {
+      "n": 7,
+      "intent_acc": 1.0,
+      "avg_judge": 3.43
+    }
+  }
+}

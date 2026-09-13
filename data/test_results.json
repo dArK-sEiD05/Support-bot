@@ -1,0 +1,202 @@
+[
+  {
+    "test_num": 1,
+    "query": "spotify keeps crashing every time i open it on my iphone",
+    "expected_intent": "playback_issue",
+    "predicted_intent": "device_compatibility",
+    "correct": false,
+    "confidence": 0.518,
+    "kb_topic": "Spotify Connect",
+    "kb_score": 0.109
+  },
+  {
+    "test_num": 2,
+    "query": "music just stops playing randomly after a few songs",
+    "expected_intent": "playback_issue",
+    "predicted_intent": "playback_issue",
+    "correct": true,
+    "confidence": 0.91,
+    "kb_topic": "Failed Payment",
+    "kb_score": 0.0635
+  },
+  {
+    "test_num": 3,
+    "query": "someone hacked my account and is playing music on it",
+    "expected_intent": "account_access",
+    "predicted_intent": "account_access",
+    "correct": true,
+    "confidence": 0.98,
+    "kb_topic": "Protect Your Account",
+    "kb_score": 0.1108
+  },
+  {
+    "test_num": 4,
+    "query": "i forgot my password and cant log in anymore",
+    "expected_intent": "account_access",
+    "predicted_intent": "account_access",
+    "correct": true,
+    "confidence": 1.0,
+    "kb_topic": "Spotify on PlayStation",
+    "kb_score": 0.1651
+  },
+  {
+    "test_num": 5,
+    "query": "i was charged $12.99 but i cancelled last month",
+    "expected_intent": "subscription_billing",
+    "predicted_intent": "subscription_billing",
+    "correct": true,
+    "confidence": 0.987,
+    "kb_topic": "Premium Plans",
+    "kb_score": 0.4273
+  },
+  {
+    "test_num": 6,
+    "query": "how do i switch from family plan to individual",
+    "expected_intent": "subscription_billing",
+    "predicted_intent": "subscription_billing",
+    "correct": true,
+    "confidence": 0.982,
+    "kb_topic": "Cancel Premium",
+    "kb_score": 0.1798
+  },
+  {
+    "test_num": 7,
+    "query": "spotify wont connect to my bluetooth speaker",
+    "expected_intent": "device_compatibility",
+    "predicted_intent": "device_compatibility",
+    "correct": true,
+    "confidence": 0.992,
+    "kb_topic": "Spotify on Speakers",
+    "kb_score": 0.2249
+  },
+  {
+    "test_num": 8,
+    "query": "how do i play spotify on my ps4 while gaming",
+    "expected_intent": "device_compatibility",
+    "predicted_intent": "device_compatibility",
+    "correct": true,
+    "confidence": 0.9,
+    "kb_topic": "Spotify on PlayStation",
+    "kb_score": 0.3022
+  },
+  {
+    "test_num": 9,
+    "query": "all my downloaded songs disappeared overnight",
+    "expected_intent": "download_offline",
+    "predicted_intent": "download_offline",
+    "correct": true,
+    "confidence": 0.998,
+    "kb_topic": "Downloads Unexpectedly Removed",
+    "kb_score": 0.0683
+  },
+  {
+    "test_num": 10,
+    "query": "how many songs can i download for offline listening",
+    "expected_intent": "download_offline",
+    "predicted_intent": "download_offline",
+    "correct": true,
+    "confidence": 0.999,
+    "kb_topic": "Downloads Unexpectedly Removed",
+    "kb_score": 0.1797
+  },
+  {
+    "test_num": 11,
+    "query": "shuffle keeps playing the same 5 songs over and over",
+    "expected_intent": "shuffle_queue",
+    "predicted_intent": "shuffle_queue",
+    "correct": true,
+    "confidence": 1.0,
+    "kb_topic": "Shuffle",
+    "kb_score": 0.178
+  },
+  {
+    "test_num": 12,
+    "query": "how do i clear my play queue on mobile",
+    "expected_intent": "shuffle_queue",
+    "predicted_intent": "shuffle_queue",
+    "correct": true,
+    "confidence": 0.99,
+    "kb_topic": "Play Queue",
+    "kb_score": 0.4105
+  },
+  {
+    "test_num": 13,
+    "query": "the sound quality is really bad even on high setting",
+    "expected_intent": "audio_quality",
+    "predicted_intent": "audio_quality",
+    "correct": true,
+    "confidence": 0.463,
+    "kb_topic": "Audio Quality Settings",
+    "kb_score": 0.3165
+  },
+  {
+    "test_num": 14,
+    "query": "how do i enable lossless audio on spotify",
+    "expected_intent": "audio_quality",
+    "predicted_intent": "device_compatibility",
+    "correct": false,
+    "confidence": 0.745,
+    "kb_topic": "Audio Quality Settings",
+    "kb_score": 0.0936
+  },
+  {
+    "test_num": 15,
+    "query": "im getting an ad after every single song this is insane",
+    "expected_intent": "ads_complaints",
+    "predicted_intent": "ads_complaints",
+    "correct": true,
+    "confidence": 0.453,
+    "kb_topic": "Ads on Spotify Free",
+    "kb_score": 0.1534
+  },
+  {
+    "test_num": 16,
+    "query": "i watched the video ad but didnt get 30 min ad free",
+    "expected_intent": "ads_complaints",
+    "predicted_intent": "ads_complaints",
+    "correct": true,
+    "confidence": 0.971,
+    "kb_topic": "Ads on Spotify Free",
+    "kb_score": 0.4076
+  },
+  {
+    "test_num": 17,
+    "query": "why is taylor swifts old album greyed out i cant play it",
+    "expected_intent": "content_availability",
+    "predicted_intent": "content_availability",
+    "correct": true,
+    "confidence": 0.57,
+    "kb_topic": "Why Content Is Missing",
+    "kb_score": 0.221
+  },
+  {
+    "test_num": 18,
+    "query": "this song was on spotify last week now its gone",
+    "expected_intent": "content_availability",
+    "predicted_intent": "device_compatibility",
+    "correct": false,
+    "confidence": 0.781,
+    "kb_topic": "Ads on Spotify Free",
+    "kb_score": 0.0692
+  },
+  {
+    "test_num": 19,
+    "query": "when will spotify be available in pakistan",
+    "expected_intent": "country_region",
+    "predicted_intent": "content_availability",
+    "correct": false,
+    "confidence": 0.987,
+    "kb_topic": "Spotify Availability",
+    "kb_score": 0.2124
+  },
+  {
+    "test_num": 20,
+    "query": "my discover weekly playlist is giving me terrible recommendations",
+    "expected_intent": "playlist_library",
+    "predicted_intent": "playlist_library",
+    "correct": true,
+    "confidence": 0.991,
+    "kb_topic": "Shuffle",
+    "kb_score": 0.0582
+  }
+]

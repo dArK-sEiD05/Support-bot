@@ -1,0 +1,42 @@
+# Environment
+.env
+venv/
+env/
+.venv/
+
+# Claude
+.claude/
+CLAUDE.md
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Data files (too large for git — download from Kaggle)
+../twcs.csv
+data/conversations.json
+data/intent_model.pkl
+
+# ChromaDB persistent store (rebuilt by running scripts 05 + 08)
+knowledge_base/chroma_db/
+
+# Eval intermediate phases (rebuilt by script 09)
+data/eval_phase*.json
+
+# Legacy
+knowledge_base/retriever.pkl
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo

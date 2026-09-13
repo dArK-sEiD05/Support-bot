@@ -1,0 +1,256 @@
+{
+  "standard_flow": [
+    "What device are you using? (iPhone, Android, Desktop, PS4, etc.)",
+    "What operating system and version?",
+    "What Spotify version? (found in Settings > About)",
+    "Are you on WiFi or mobile data?",
+    "Are you Free or Premium?",
+    "When did this issue start?",
+    "Does restarting the app help?"
+  ],
+  "per_intent": {
+    "playback_issue": [
+      "What device and OS are you using?",
+      "What Spotify version?",
+      "Does this happen on WiFi, mobile data, or both?",
+      "Does restarting the device help?",
+      "Does it happen with all songs or specific ones?"
+    ],
+    "device_compatibility": [
+      "What device are you trying to connect to?",
+      "What phone/computer are you controlling from?",
+      "Are both devices on the same WiFi network?",
+      "What Spotify version are you using?",
+      "Have you tried unpairing and re-pairing?"
+    ],
+    "account_access": [
+      "What error message do you see when trying to log in?",
+      "Are you using email, Facebook, Apple, or Google to log in?",
+      "Have you tried resetting your password?",
+      "Do you have access to the email on your account?"
+    ],
+    "subscription_billing": [
+      "What plan are you on? (Individual, Student, Duo, Family)",
+      "What payment method are you using?",
+      "What country is your account registered in?",
+      "Can you check your payment history at spotify.com/account?"
+    ],
+    "download_offline": [
+      "What device are you downloading on?",
+      "How many offline devices do you have?",
+      "When did the downloads disappear?",
+      "Do you have enough storage space on your device?"
+    ],
+    "shuffle_queue": [
+      "What device are you using?",
+      "Are you Free or Premium?",
+      "Are you trying to play a playlist, album, or liked songs?",
+      "What happens when you tap the shuffle icon?"
+    ],
+    "audio_quality": [
+      "What quality setting do you have selected?",
+      "What device and connection type (WiFi/mobile)?",
+      "Does this happen with all songs or specific ones?",
+      "Are you Free or Premium?"
+    ],
+    "ads_complaints": [
+      "Are you on the Free or Premium plan?",
+      "What device are you using?",
+      "Did you watch a video ad for 30-min ad-free? Did the app crash during that time?"
+    ],
+    "playlist_library": [
+      "What device and Spotify version are you using?",
+      "Which playlist is affected?",
+      "When did you notice the issue?",
+      "Have you tried logging out and back in?"
+    ],
+    "content_availability": [
+      "What song/album/artist are you looking for?",
+      "What country is your account set to?",
+      "Is the content greyed out or completely missing?"
+    ],
+    "country_region": [
+      "What country are you in?",
+      "Have you checked if Spotify is available in your country at spotify.com?"
+    ]
+  },
+  "resolution_examples_from_tweets": {
+    "try ": [
+      "@115887 Hmm. Can you try restarting your device by holding the Sleep/Wake + Volume Down buttons for 10 seconds? Keep us posted /LS",
+      "@115887 Thanks. Just to be sure, are you Free or Premium? Also, can you give us more info on what happens when you try using it? /CB",
+      "@115889 Got it. It's not possible at the moment, but we'll pass on the the suggestion. Could you try reinstalling the app? /PB"
+    ],
+    "reinstall": [
+      "@116128 Thanks! It's not ideal, but a clean reinstall of the app should help out: https://t.co/EqisDMwZAT. Let us know how it plays out /KB",
+      "@124703 Hmm. An app update shouldn't do that. We suggest that you remove your offline devices and reinstall if it happens again /CP",
+      "@125853 Thanks for the info. Does reinstalling the app on both devices help at all? You can follow the steps here: https://t.co/EqisDMwZAT /MT"
+    ],
+    "restart": [
+      "@116387 Thanks. Is it happening over 3G/4G, WiFi, or both? Does logging out, fully closing the app, and restarting your device help? /KC",
+      "@117673 Hey, help's here! Is it still missing after logging out, restarting the app, then logging back in? Let us know how it goes /SJ",
+      "@119724 Hey there! Are you able to uninstall the app after restarting your computer? We'll see what else we can suggest /NQ"
+    ],
+    "tap ": [
+      "@116395 Alright. Can you send us the Song Link then? Just tap the three dots &gt; Share &gt; Copy Link. We'll have a look /AG",
+      "@117212 2: mobile, can you send us the Song Link instead? Just tap the three dots &gt; Share &gt; Copy Link. We look forward to your reply /JU",
+      "@117670 1: To delete your tweet, just tap on the icon that looks like an arrow pointing down and select Delete Tweet from the options. /CH"
+    ],
+    "you can ": [
+      "@117452 Hey! If you’re Premium, you can connect your Spotify account to the Musixmatch mobile app to enjoy lyrics: https://t.co/scvbRH6MhL /JS",
+      "@117482 We'd recommend deleting your last tweet as it contains sensitive account info. You can DM it to us instead /NY https://t.co/ldFdZRiNAt",
+      "@117673 Will it be possible if you can log in to another device? Give us a shout if anything comes up /SJ"
+    ],
+    "click ": [
+      "@117212 1: Hi there. Don't worry, we'll look into this. Can you send us the Spotify URI? Just right-click the track &gt; Share &gt; URI. If you're on...",
+      "@117670 2: To send us a DM or Direct Message (privately), just click on this link we've attached on this tweet /CH https://t.co/ldFdZRiNAt",
+      "@122505 1: Got it. Just in case, you can add artists to your Radio by going to an artist you like &gt; click on the three dots (...) &gt; click on /GK"
+    ],
+    "make sure": [
+      "@118118 We haven't launched there yet, but hopefully we'll get there soon. Make sure to add your email in the link we sent earlier. Stay tuned 😁 /KC",
+      "@124188 Don't worry - we'll make sure to pass your feedback on to the relevant folks 😁 /SY",
+      "@124503 2: Just a heads up though, make sure any tracks you're syncing offline has finished downloading before doing this /RR"
+    ],
+    "update ": [
+      "@118387 Fingers crossed that an update would be available soon. For the meantime, let us know if you have other questions /JU",
+      "@123396 Sounds like a plan! We'll be right here waiting for your update /KM",
+      "@124710 Cool! We'll keep an eye out for your update /NS"
+    ],
+    "go to ": [
+      "@122505 2: Go to Artist Radio &gt; follow that radio station. That should do the trick! Let us know if you have other questions /GK",
+      "@124503 Can you also check the exact Spotify version you're using? Just go to Your Library &gt; Settings &gt; About &gt; Version 🙂 /RR",
+      "@134860 Thanks. Can you get back to us with the exact version of Spotify you're using? To get this info, just go to Your Music &gt; Settings &gt; About /AG"
+    ],
+    "open ": [
+      "@125449 Hey Callum! We're always open for feedback. Can you give us a bit more info about your idea? We'll be waiting /MC",
+      "@142354 Hey, sorry to hear that. Can you check if your \"Open Spotify automatically after you log into the computer\" setting is disabled? Let us know how everything goes /JE",
+      "@158686 Hey Joss! Just to check, have you disabled \"Open Spotify automatically adter you log into the computer\" through the desktop app's Settings? It's under \"Startup and Window Behaviour\" /RH"
+    ],
+    "select ": [
+      "@125849 We're sorry to hear that. This is something for our Account's team. You can reach them by heading to our contact form &gt; select Logging in &gt; I can't log in to Spotify &gt; I STILL NEED HE",
+      "@141620 Don't worry, our Accounts team should be able to take care of this for you. You can reach them at https://t.co/EQsHGd5NCy. Just select Account &gt; Other &gt; I STILL NEED HELP &gt; Enter your",
+      "@144625 Hey Mariah! We'd suggest heading directly to https://t.co/JYSLwgYYWq and select Logging in &gt; I can't log in to Spotify &gt; I STILL NEED HELP /AR"
+    ],
+    "you'll need": [
+      "@128146 Hey! If you're in Canada, you'll need to sign up using a Canadian payment method. We hope that clears everything up /CB",
+      "@131860 Hey Kevin! For this issue, you'll need to reach the team directly here: https://t.co/41wf7ozbVm /I",
+      "@155026 Hi Julio! You'll need to leave your current Family plan in order to apply for the student discount + Hulu bundle. Hope this clears things up /WW"
+    ],
+    "enable": [
+      "@128531 It isn't available in the desktop app, but the notifications will be sent to your email. Enable it at https://t.co/aLOhtaQGNC /JL",
+      "@135361 Thanks. Can you make sure you've enabled \"Control Sonos from Spotify\" in the Sonos app settings? There's more info here: https://t.co/Wgy3SqHCeq /NG",
+      "@265539 Just to check, does this issue happen when you're using Connect and you have Shuffle enabled? /AR"
+    ],
+    "here's how": [
+      "@131854 We don't offer official support for the version of the app for Linux, but here's how to install it: https://t.co/eXsWnXSQiQ /MA",
+      "@155528 Hey Stephen, help's here! Have you tried re-installing the Spotify app? Here's how: https://t.co/cxGHt0bCR8. Let us know how it goes /AL",
+      "@156658 Hi David! Free users could stream music in shuffle using the mobile app while connected to the internet. We'd suggest playing music on-demand using a computer or a tablet. Here's how to make t"
+    ],
+    "disable": [
+      "@164066 2. You should also disable Shuffle Play. On the other hand, we have info about removing songs on queue here: https://t.co/Lx02el9U59 /PL",
+      "@227529 Hi Maddy! You can disable it by going to Settings &gt; Playback &gt; Behind the Lyrics. For anything else, just give us a shout /DN",
+      "@281865 Hey Ian. The feature is available to Free and Premium users. We're afraid, though, that the option to disable it is not available on the desktop app or Web Player. What operating system and Sp"
+    ],
+    "log out": [
+      "@166000 Thanks. Could you log out, restart your Mac, then log back in before checking again? /JU",
+      "@198120 Thanks. Can you log out, restart your device, then log back in before checking one more time? /JU",
+      "@205015 Hi there. Don't worry, help's here. Can you log out, restart the Mac, then log back in before checking again? /JU"
+    ],
+    "toggle": [
+      "@197923 Hey, thanks for the feedback! To stop it displaying automatically on mobile, head to Settings &gt; Playback &gt; toggle off Behind the Lyrics /NQ",
+      "@204110 2: by heading to Settings &gt; Playback &gt; toggle off AutoPlay. Hope this clears things up /AR",
+      "@215485 Hmm. Could you check if you have the Shuffle option toggled off? /JO"
+    ],
+    "uninstall": [
+      "@424485 Hey there! Just to confirm, are you having issues uninstalling the app? /NS",
+      "@571034 Hey, can you let us know what's happening exactly? To uninstall the app though, just follow the steps at https://t.co/cxGHt0bCR8 /GS",
+      "@463480 That's odd. Did you get any error messages when you tried to uninstall the app? If so, a screenshot would help.  Keep us posted /MU"
+    ]
+  },
+  "diagnostic_examples_from_tweets": {
+    "can you try": [
+      "@115887 Hmm. Can you try restarting your device by holding the Sleep/Wake + Volume Down buttons for 10 seconds? Keep us posted /LS",
+      "@116890 Hey, help's here! Can you try logging in on another device or the web player (https://t.co/aT5o0wcN4V)? Are you seeing your songs? /JP",
+      "@117673 Thanks. Can you try reinstalling the app? You can find the steps for your device at https://t.co/cxGHt0bCR8. Keep us posted /SJ"
+    ],
+    "what device": [
+      "@115887 Hey! What device, operating system, and Spotify version are you using? We'll see what we can suggest /CB",
+      "@116387 Hey! What device, operating system, and Spotify version are you using? We'll see what we can suggest /CB",
+      "@117526 Hi Andrea. Don't worry, help's here. Can you tell us what device and browser you're using? We'll see what we can suggest /JU"
+    ],
+    "can you let us know": [
+      "@115889 Hey there! That doesn't sound good. What's happening exactly? Can you let us know the app version you're using? /PB",
+      "@116379 Hey Dylan! Can you let us know which versions of Spotify and Windows you're running? We'll see what we can suggest /RA",
+      "@116394 Hey Dustin, we're sorry to hear that! Can you let us know the name of the artist of that track? We'll check it out /NS"
+    ],
+    "spotify version": [
+      "@116128 Hmm, let's see. Could you confirm the exact Spotify version of your desktop app? /KB",
+      "@116385 Hey there! Don't worry, help's here. Can you let us know the iPhone model you're using along with its iOS and Spotify versions? We'll see what we can suggest /MT",
+      "@116887 Hey! The cavalry's here. Could you confirm the iOS and Spotify version you're using? We'll see what we can suggest /KB"
+    ],
+    "3g/4g": [
+      "@116387 Thanks. Is it happening over 3G/4G, WiFi, or both? Does logging out, fully closing the app, and restarting your device help? /KC",
+      "@116887 Got it. Is this happening on 3G/4G, WiFi, or both? Do you get the same issue when you use Spotify on other devices? /KB",
+      "@132495 Does this happen over WiFi, 3G/4G, or both? Is it the same when you're using other Android devices? /MA"
+    ],
+    "what country": [
+      "@116395 Hey there! Can you send us the Spotify URI? Just right-click the track &gt; Share &gt; URI. Also, what country is your Spotify account set to? /AG",
+      "@119986 Hey! Can you send us the Spotify URI of the artist you're referring to? Also, what country is your account set to? We'll check backstage /AR",
+      "@125856 Hey Lucas! Just to check, what country is your Spotify account set to? /MT"
+    ],
+    "which device": [
+      "@116892 Hey there! Can you let us know which device and operating system you're using? We'll see what we can suggest /NQ",
+      "@125848 Hey there! Can you let us know which device and operating system you're using, along with a screenshot of what you're seeing? We'll see what we can suggest /NQ",
+      "@169273 Hey! Can you let us know which device and operating system you're using? Also, is this happening over WiFi or 3G/4G? /NQ"
+    ],
+    "operating system": [
+      "@120940 Hey Yann, help's here! Can you let us know the device, operating system, and Spotify version you're using? We'll see what we can suggest /GK",
+      "@121069 Hey there! Can you fire over the device and operating system you're using? We'll see what we can suggest /PL",
+      "@122505 Hey, help's here! Can you let us know the device, operating system, and Spotify version you're using? We'll see what we can suggest /RS"
+    ],
+    "how long": [
+      "@128142 Thanks for the info. How long has this been happening for? What troubleshooting have you tried so far? /CB",
+      "@173799 Thanks for the info. For how long has it been happening? Do you have the app installed on a different device as well? /CB",
+      "@218799 Thanks! How long has this been happening? Does this only happen when you open Twitter? /CB"
+    ],
+    "when did this start": [
+      "@128142 Thanks for letting us know. When did this start happening? Does logging out and back in help? You can also try restarting the app /CB",
+      "@131859 Hey, that's not cool! When did this start to happen? Can you also let us know the internet browser you're using? /LO",
+      "@165017 Awesome. When did this start happening? Was it after an app or iOS update? /SY"
+    ],
+    "does it happen": [
+      "@128147 Hmm. Does it happen across other devices too? Also, do you get the same issue with the other apps installed on your laptop? /MC",
+      "@130006 Thanks! Does it happen when you use the web player in an incognito or a private browsing window? /SY",
+      "@160067 Do you experience the volume issue as well? If yes, does it happen when using both headphones/earphones or speakers? /SJ"
+    ],
+    "does restarting": [
+      "@131454 Hmm. Does restarting your device help at all? Can you try clearing your cache? Keep us posted /PL",
+      "@137386 Sorry to hear you're still having troubles. Does restarting your device help at all? Keep us posted /VV https://t.co/ldFdZRiNAt",
+      "@138951 Thanks for letting us know. Do you notice this issue happening with other apps? Also, does restarting your phone help at all? /JT"
+    ],
+    "does this happen": [
+      "@131856 Thanks for letting us know. Does this happen on WiFi, 3/4G, or both? Also, are you experiencing the same when using another device? /KM",
+      "@135367 Alright. Did this issue start happening after a specific update? Also, does this happen on any other apps as well? /LM",
+      "@152999 Got it! Just to check, does this happen to other devices? Keep us posted /DF"
+    ],
+    "what version": [
+      "@171662 Hi! Help's here. What versions of iOS and Spotify are you using? Are both devices connected to the same WiFi network? /SV",
+      "@179240 Hi there! Can you let us know what version of Spotify you're using? We'll take a look under the hood /DN",
+      "@270406 Hi Michael, help's here! Can you let us know what version of Spotify you're using? We'll see what we can suggest /JI"
+    ],
+    "premium or free": [
+      "@181496 Are you rocking Premium or Free? Does logging out, fully closing the app, and restarting your device help? /KC",
+      "@552503 Hey! Are you getting any error messages when connecting to Spotify? Also, are you rocking Premium or Free? Keep us posted /BH",
+      "@665231 Hey there! Are you rocking Spotify Premium or Free? We'll see what we can suggest /BH"
+    ],
+    "can you confirm": [
+      "@212042 Thanks. Can you confirm your account's email address or username via DM? We'll take a look backstage /GT https://t.co/ldFdZRiNAt",
+      "@230511 Hey Natasha, sorry to hear that. We're afraid Play Queue isn't available on web player right now, but we'll let the right team know it's something you'd like to see. Can you confirm your Chrom",
+      "@281863 Thanks for clarifying. You can also use your debit card to pay for your subscription. Can you confirm if you're given the option to subscribe to the 3 months for 9 PHP offer? /DR"
+    ],
+    "wifi or": [
+      "@292013 Hey there! Can you let us know the internet browser you're using? Are you on a WiFi or 3G/4G connection? /LO",
+      "@326015 Thanks for getting back to us! Is this happening on any other devices? Also, are you using a WiFi or 3G/4G connection? Keep us posted /TF",
+      "@330177 Thanks. Are you getting this issue on specific tracks or artists? Also, does this happen over WiFi or mobile data? /GS"
+    ]
+  }
+}

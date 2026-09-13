@@ -1,0 +1,1602 @@
+[
+  {
+    "tweet_id": "572092",
+    "text": "@SpotifyCares Is there a way to download or access my own user/listening data? Would love to do my own exploratory analysis on this data, and be able to archive it.",
+    "keyword_intent": "download_offline",
+    "gold_intent": "feature_request",
+    "difficulty": "medium",
+    "notes": "asking for data export/analytics, not music downloads"
+  },
+  {
+    "tweet_id": "886327",
+    "text": "@spotifycares Hi there, I can’t log in after the payment for my subscription went wrong. I keep getting code 3 and unable to reset password",
+    "keyword_intent": "account_access",
+    "gold_intent": "account_access",
+    "difficulty": "easy",
+    "notes": "cant log in + payment issue + password reset failing"
+  },
+  {
+    "tweet_id": "1245065",
+    "text": "@SpotifyCares Lovely stuff. Thanks for your help 👊🏽",
+    "keyword_intent": "device_compatibility",
+    "gold_intent": "other",
+    "difficulty": "easy",
+    "notes": "just a thank you message, no support issue"
+  },
+  {
+    "tweet_id": "1338959",
+    "text": "@SpotifyCares doesn't have @55648 on their music anymore. But @129941 does?...hmmm. 🤔",
+    "keyword_intent": "device_compatibility",
+    "gold_intent": "content_availability",
+    "difficulty": "easy",
+    "notes": "artist not on Spotify anymore"
+  },
+  {
+    "tweet_id": "1867388",
+    "text": "Dear @115888 \nPlease add songs to your Halloween playlist. The diner I work at plays it all day and I've heard ghostbusters 20 times 2day.",
+    "keyword_intent": "feature_request",
+    "gold_intent": "feature_request",
+    "difficulty": "easy",
+    "notes": "requesting songs be added to curated Halloween playlist"
+  },
+  {
+    "tweet_id": "739459",
+    "text": "@SpotifyCares can’t log in using Facebook. Why? Sos https://t.co/2QQPbHAB8Y",
+    "keyword_intent": "device_compatibility",
+    "gold_intent": "account_access",
+    "difficulty": "easy",
+    "notes": "cant log in via Facebook"
+  },
+  {
+    "tweet_id": "2583359",
+    "text": "@SpotifyCares I am trying to cancel my free trial before I get charged but it is telling me I have no subscriptions and therefore there's no cancel option. I def got free trial and am worried I will be charged.",
+    "keyword_intent": "subscription_billing",
+    "gold_intent": "subscription_billing",
+    "difficulty": "easy",
+    "notes": "trying to cancel free trial before charge"
+  },
+  {
+    "tweet_id": "2350992",
+    "text": "@117153 i cant access my spotify premium. can you help?",
+    "keyword_intent": "subscription_billing",
+    "gold_intent": "account_access",
+    "difficulty": "medium",
+    "notes": "cant access premium — could be billing or access, but primary issue is access"
+  },
+  {
+    "tweet_id": "2948931",
+    "text": "@SpotifyCares I'm Canadian living in US and trying to purchase the $0.99 promo, but it keeps telling me my Canadian Postal Code is not valid. https://t.co/W9M3qojwqL",
+    "keyword_intent": "subscription_billing",
+    "gold_intent": "subscription_billing",
+    "difficulty": "medium",
+    "notes": "payment failing due to Canadian postal code in US — billing + country overlap"
+  },
+  {
+    "tweet_id": "2069705",
+    "text": "@115888 I can't remember my password/email I used on my phone and I made a premium account using my student discount. How do I recover it?",
+    "keyword_intent": "subscription_billing",
+    "gold_intent": "account_access",
+    "difficulty": "easy",
+    "notes": "forgot password and email, wants account recovery"
+  },
+  {
+    "tweet_id": "2981105",
+    "text": "@115888 i just updated my app and it keeps crashing what do i do",
+    "keyword_intent": "other",
+    "gold_intent": "playback_issue",
+    "difficulty": "easy",
+    "notes": "app crashing after update"
+  },
+  {
+    "tweet_id": "1933422",
+    "text": "@SpotifyCares I received a charge to my checking account from \"Spotify USA\" 10/27 I am confident that I have never signed up for an account.",
+    "keyword_intent": "device_compatibility",
+    "gold_intent": "subscription_billing",
+    "difficulty": "easy",
+    "notes": "unauthorized charge, never signed up"
+  },
+  {
+    "tweet_id": "1527094",
+    "text": "@115888 yo. so your ads are garb right? just make them jingles that flow w what ever anyones listening to. solved. credit - me",
+    "keyword_intent": "ads_complaints",
+    "gold_intent": "ads_complaints",
+    "difficulty": "medium",
+    "notes": "complaining about ad quality + suggesting improvement"
+  },
+  {
+    "tweet_id": "1846521",
+    "text": "@115888 Why is there a limit to my account? Just discovered this but saving albums to my music has become a crutial part of my workflow.",
+    "keyword_intent": "playlist_library",
+    "gold_intent": "playlist_library",
+    "difficulty": "easy",
+    "notes": "asking about library save limit"
+  },
+  {
+    "tweet_id": "438205",
+    "text": "@spotifycares i went onto my spotify account today &amp; noticed my playlists are gone and my song library is completely different WHAT HAPPENED",
+    "keyword_intent": "playlist_library",
+    "gold_intent": "account_access",
+    "difficulty": "medium",
+    "notes": "playlists gone + library changed suggests unauthorized access"
+  },
+  {
+    "tweet_id": "2251350",
+    "text": "@115888 how do I download Spotify premium ?😂 I’m having trouble finding what to do 😂",
+    "keyword_intent": "subscription_billing",
+    "gold_intent": "subscription_billing",
+    "difficulty": "easy",
+    "notes": "how to get/download premium"
+  },
+  {
+    "tweet_id": "1597193",
+    "text": "@SpotifyCares Hey. It could be great to have \"always skip duplication\" option. :)",
+    "keyword_intent": "device_compatibility",
+    "gold_intent": "feature_request",
+    "difficulty": "easy",
+    "notes": "requesting skip duplication feature"
+  },
+  {
+    "tweet_id": "2851474",
+    "text": "@SpotifyCares every time I try to sync the songs I have on my laptop to Spotify I ALWAYS have a problem when they won’t sync and show up on my iPhone app!",
+    "keyword_intent": "download_offline",
+    "gold_intent": "download_offline",
+    "difficulty": "medium",
+    "notes": "local file sync between laptop and phone"
+  },
+  {
+    "tweet_id": "835598",
+    "text": "@SpotifyCares Thank you 🧀",
+    "keyword_intent": "device_compatibility",
+    "gold_intent": "other",
+    "difficulty": "easy",
+    "notes": "just a thank you, no support issue"
+  },
+  {
+    "tweet_id": "851916",
+    "text": "di ako makaregister ng @115888  premium!!!",
+    "keyword_intent": "subscription_billing",
+    "gold_intent": "subscription_billing",
+    "difficulty": "hard",
+    "notes": "non-English Filipino, trying to register for premium"
+  },
+  {
+    "tweet_id": "426782",
+    "text": "@SpotifyCares I just got kicked off my family plan and can’t get back on it. Every time I put in the confirmation, “something went wrong”",
+    "keyword_intent": "subscription_billing",
+    "gold_intent": "subscription_billing",
+    "difficulty": "easy",
+    "notes": "kicked off family plan, cant rejoin"
+  },
+  {
+    "tweet_id": "184046",
+    "text": "@SpotifyCares If one switches their Groove Pass over to Spotifiy Premium for Family -- does that have a 60-day trial period?",
+    "keyword_intent": "subscription_billing",
+    "gold_intent": "subscription_billing",
+    "difficulty": "easy",
+    "notes": "asking about trial period for Groove Pass migration"
+  },
+  {
+    "tweet_id": "2969659",
+    "text": "@SpotifyCares Done.  Thanks in advance!",
+    "keyword_intent": "device_compatibility",
+    "gold_intent": "other",
+    "difficulty": "easy",
+    "notes": "just a follow-up acknowledgment"
+  },
+  {
+    "tweet_id": "1190761",
+    "text": "@SpotifyCares I'm trying to change my payment method and it won't work. Please send help!",
+    "keyword_intent": "subscription_billing",
+    "gold_intent": "subscription_billing",
+    "difficulty": "easy",
+    "notes": "cant change payment method"
+  },
+  {
+    "tweet_id": "1568344",
+    "text": "@SpotifyCares Hi! I'm trying to upgrade my account (I was previously in a family plan, but not anymore) and it's not accepting my CC?",
+    "keyword_intent": "subscription_billing",
+    "gold_intent": "subscription_billing",
+    "difficulty": "easy",
+    "notes": "credit card not accepted for upgrade"
+  },
+  {
+    "tweet_id": "1434289",
+    "text": "@SpotifyCares No error message, just that song is not available. On Samsung Galaxy 8+ Android 7.0 Spotify 8.4.22.857 armv7 on forum a few posts today",
+    "keyword_intent": "device_compatibility",
+    "gold_intent": "content_availability",
+    "difficulty": "medium",
+    "notes": "song not available — mentions device details but issue is content"
+  },
+  {
+    "tweet_id": "2749459",
+    "text": "@SpotifyCares please help every time I press shuffle my music just plays in the order it was saved in",
+    "keyword_intent": "shuffle_queue",
+    "gold_intent": "shuffle_queue",
+    "difficulty": "easy",
+    "notes": "shuffle not working, plays in saved order"
+  },
+  {
+    "tweet_id": "568902",
+    "text": "What the fuck @115888 why is “It’s so easy” by @13582 not available anymore",
+    "keyword_intent": "content_availability",
+    "gold_intent": "content_availability",
+    "difficulty": "easy",
+    "notes": "specific song no longer available"
+  },
+  {
+    "tweet_id": "2751322",
+    "text": "@SpotifyCares is there a problem with your site? Can’t login to app or web player. Says incorrect user or pass, but I know they’re correct.",
+    "keyword_intent": "device_compatibility",
+    "gold_intent": "account_access",
+    "difficulty": "easy",
+    "notes": "cant log in to app or web player"
+  },
+  {
+    "tweet_id": "1254522",
+    "text": "I'm so annoyed that Spotify doesn't have a customer service line",
+    "keyword_intent": "other",
+    "gold_intent": "other",
+    "difficulty": "easy",
+    "notes": "meta-complaint about no customer service line"
+  },
+  {
+    "tweet_id": "2042314",
+    "text": "@115888 will the Time Capsule playlist update like the Discover Weekly playlist?",
+    "keyword_intent": "playlist_library",
+    "gold_intent": "playlist_library",
+    "difficulty": "easy",
+    "notes": "question about Time Capsule playlist updates"
+  },
+  {
+    "tweet_id": "2306946",
+    "text": "@SpotifyCares someone hacked my account and deleted my playlist is there anyway of getting it back?",
+    "keyword_intent": "account_access",
+    "gold_intent": "account_access",
+    "difficulty": "easy",
+    "notes": "hacked account + playlist deleted"
+  },
+  {
+    "tweet_id": "1102963",
+    "text": "my @115888 playlist of just @129184 songs never works but all my other ones do. I  n e e d  m y  d a i l y  d o d i e @115888 help me",
+    "keyword_intent": "playlist_library",
+    "gold_intent": "playback_issue",
+    "difficulty": "medium",
+    "notes": "one specific playlist wont play while others work"
+  },
+  {
+    "tweet_id": "853094",
+    "text": "@SpotifyCares I get this error every time I try and play Beck and David Bowie. Across devices, reinstalled app, turned off local playback. ? https://t.co/yB7ryLcIj8",
+    "keyword_intent": "device_compatibility",
+    "gold_intent": "content_availability",
+    "difficulty": "medium",
+    "notes": "specific artists wont play across all devices — licensing not device"
+  },
+  {
+    "tweet_id": "585138",
+    "text": "@115888 laver vrøvl hver gang den skal afspille en reklame. Den hopper væk fra playlisten, og over på radio ud fra et tilfældigt nummer fra listen. Eller stopper helt med at spille. \nDen skriver playback fall.\nHvad kan jeg gøre?",
+    "keyword_intent": "playlist_library",
+    "gold_intent": "playback_issue",
+    "difficulty": "hard",
+    "notes": "non-English Danish, playback fails during ads"
+  },
+  {
+    "tweet_id": "2621335",
+    "text": "so yeah i forgot my spotify email and password urgh😫 wasted premium!!!",
+    "keyword_intent": "account_access",
+    "gold_intent": "account_access",
+    "difficulty": "easy",
+    "notes": "forgot email and password"
+  },
+  {
+    "tweet_id": "2941503",
+    "text": "@SpotifyCares I'm being charged for Premium on my phone bill but I don't have any account details to login and cancel, and I also can't use your contact form without login details. Help, stuck in payment loop I can't get out of!",
+    "keyword_intent": "subscription_billing",
+    "gold_intent": "subscription_billing",
+    "difficulty": "medium",
+    "notes": "charged on phone bill but cant log in to cancel"
+  },
+  {
+    "tweet_id": "1257497",
+    "text": "@SpotifyCares i want move my playlist dan my followers to my new account , can it ?",
+    "keyword_intent": "device_compatibility",
+    "gold_intent": "account_access",
+    "difficulty": "medium",
+    "notes": "wants to transfer playlists/followers to new account"
+  },
+  {
+    "tweet_id": "2689675",
+    "text": "@SpotifyCares I can’t open my app since most recent update (which was today). It keeps closing out. @115888",
+    "keyword_intent": "device_compatibility",
+    "gold_intent": "playback_issue",
+    "difficulty": "easy",
+    "notes": "app cant open after update, keeps closing"
+  },
+  {
+    "tweet_id": "2439894",
+    "text": "@SpotifyCares Are there any known issues with Spotify running on High Sierra? Whenever I play music, my whole Macbook goes really slow, scrolling is juddery and keyboard cannot keep up with typing. Stops when I stop playing music, even with app still open?",
+    "keyword_intent": "device_compatibility",
+    "gold_intent": "device_compatibility",
+    "difficulty": "easy",
+    "notes": "macOS High Sierra performance issue when playing music"
+  },
+  {
+    "tweet_id": "2829790",
+    "text": "@115888 can someone please get a hold of me,,,,, i need a refund and cancel, i have email and tweeted your spotifycare and get no response",
+    "keyword_intent": "subscription_billing",
+    "gold_intent": "subscription_billing",
+    "difficulty": "easy",
+    "notes": "wants refund and cancellation"
+  },
+  {
+    "tweet_id": "2353930",
+    "text": "@SpotifyCares how come I can’t search my library while offline? It’s dumb af",
+    "keyword_intent": "download_offline",
+    "gold_intent": "download_offline",
+    "difficulty": "easy",
+    "notes": "cant search library while offline"
+  },
+  {
+    "tweet_id": "1139661",
+    "text": "Can I know, why I cannot pay the premium by mobile like I always do? @181186",
+    "keyword_intent": "subscription_billing",
+    "gold_intent": "subscription_billing",
+    "difficulty": "easy",
+    "notes": "mobile payment method not working"
+  },
+  {
+    "tweet_id": "2034281",
+    "text": "my discover weekly playlist is now 9 days old @115888, and now i'm sad",
+    "keyword_intent": "playlist_library",
+    "gold_intent": "playlist_library",
+    "difficulty": "easy",
+    "notes": "Discover Weekly not updating, 9 days old"
+  },
+  {
+    "tweet_id": "2077051",
+    "text": "@SpotifyCares having trouble activating a Family Premium account. Got the email with code but get 600 error message, now can't access page",
+    "keyword_intent": "account_access",
+    "gold_intent": "subscription_billing",
+    "difficulty": "medium",
+    "notes": "family plan activation error 600"
+  },
+  {
+    "tweet_id": "2780795",
+    "text": "Why am I paying a monthly subscription if i can’t log into my account ?? @115888",
+    "keyword_intent": "subscription_billing",
+    "gold_intent": "account_access",
+    "difficulty": "medium",
+    "notes": "paying but cant log in — primary issue is access"
+  },
+  {
+    "tweet_id": "1825044",
+    "text": "I can’t be the only one with #Spotify control issues on #iPhone, after the latest @115888 update I can’t control it outside the app...help!",
+    "keyword_intent": "other",
+    "gold_intent": "playback_issue",
+    "difficulty": "easy",
+    "notes": "cant control playback outside app after update"
+  },
+  {
+    "tweet_id": "2275494",
+    "text": "@SpotifyCares Actually I just got a update to IOS 11.2 public beta 2 and the problem is gone !! But anyways thank you very much for you help 🙏🙏🙏 excellent support 👌💪",
+    "keyword_intent": "device_compatibility",
+    "gold_intent": "other",
+    "difficulty": "easy",
+    "notes": "issue already resolved by iOS update, just a thank you"
+  },
+  {
+    "tweet_id": "1308121",
+    "text": "@115888 and a way to select albums \"to be downloaded\" when they're released",
+    "keyword_intent": "download_offline",
+    "gold_intent": "feature_request",
+    "difficulty": "easy",
+    "notes": "requesting auto-download for new album releases"
+  },
+  {
+    "tweet_id": "2268715",
+    "text": "@SpotifyCares Are you guys thinking of letting Spotify on PS4 be able to play local files? Trying to play them either from my laptop or the actual PS4 application makes it skip to a different song instead",
+    "keyword_intent": "device_compatibility",
+    "gold_intent": "device_compatibility",
+    "difficulty": "medium",
+    "notes": "asking about PS4 local files — device feature question"
+  },
+  {
+    "tweet_id": "206607",
+    "text": "@SpotifyCares It's happening when I shuffle my songs library. I'll DM you my account details",
+    "keyword_intent": "shuffle_queue",
+    "gold_intent": "shuffle_queue",
+    "difficulty": "easy",
+    "notes": "ongoing shuffle issue, offering to DM"
+  },
+  {
+    "tweet_id": "2458981",
+    "text": "Is it common practice for you to only offer vague answers and stop responding to emails? @115888 @SpotifyCares",
+    "keyword_intent": "subscription_billing",
+    "gold_intent": "other",
+    "difficulty": "medium",
+    "notes": "meta-complaint about vague support responses"
+  },
+  {
+    "tweet_id": "666357",
+    "text": "@115888 it won't let me tap to watch the video. This happens frequently. Help :) https://t.co/dHyybrM27q",
+    "keyword_intent": "audio_quality",
+    "gold_intent": "ads_complaints",
+    "difficulty": "medium",
+    "notes": "cant tap to watch video ad"
+  },
+  {
+    "tweet_id": "486930",
+    "text": "@SpotifyCares I had to cancel the debit card on file for my premium account. How do I update the information for my new debit card so that my premium service is not interrupted? I do not have an email from you guys in my inbox.",
+    "keyword_intent": "subscription_billing",
+    "gold_intent": "subscription_billing",
+    "difficulty": "easy",
+    "notes": "updating debit card info for premium"
+  },
+  {
+    "tweet_id": "1821399",
+    "text": "Why have 75% of my saved songs on @115888  deleted 😩 that’s about 900 songs I’ve lost",
+    "keyword_intent": "playlist_library",
+    "gold_intent": "playlist_library",
+    "difficulty": "easy",
+    "notes": "75% of saved songs disappeared"
+  },
+  {
+    "tweet_id": "1914285",
+    "text": "@SpotifyCares please can I have some help accessing my account?",
+    "keyword_intent": "device_compatibility",
+    "gold_intent": "account_access",
+    "difficulty": "easy",
+    "notes": "cant access account"
+  },
+  {
+    "tweet_id": "700388",
+    "text": "@SpotifyCares why it takes so long to upgrade to premium? Can't load anything and just stuck here since 4 hours ago. https://t.co/KUbKQyIL21",
+    "keyword_intent": "subscription_billing",
+    "gold_intent": "subscription_billing",
+    "difficulty": "easy",
+    "notes": "upgrade to premium stuck for 4 hours"
+  },
+  {
+    "tweet_id": "1532725",
+    "text": "@117153 Hi there. I'm being charged for Premium Spotify, but my account is not showing anything so i can't cancel. I tried my other emails and they're not showing any Spotify associated with them. My account is __email__",
+    "keyword_intent": "subscription_billing",
+    "gold_intent": "subscription_billing",
+    "difficulty": "easy",
+    "notes": "charged but cant find subscription to cancel"
+  },
+  {
+    "tweet_id": "2023959",
+    "text": "@SpotifyCares how to 'switch' my profile from Facebook login to standalone login?",
+    "keyword_intent": "device_compatibility",
+    "gold_intent": "account_access",
+    "difficulty": "easy",
+    "notes": "wants to switch from Facebook to standalone login"
+  },
+  {
+    "tweet_id": "2793341",
+    "text": "WTF!!! I had @115888 premium, &amp; now it's gone!!! 😒 what happened??? @SpotifyCares",
+    "keyword_intent": "subscription_billing",
+    "gold_intent": "subscription_billing",
+    "difficulty": "easy",
+    "notes": "premium disappeared unexpectedly"
+  },
+  {
+    "tweet_id": "1640515",
+    "text": "@115888 update my time capsule playlist pls",
+    "keyword_intent": "playlist_library",
+    "gold_intent": "playlist_library",
+    "difficulty": "easy",
+    "notes": "requesting Time Capsule playlist update"
+  },
+  {
+    "tweet_id": "631965",
+    "text": "@115888 @SpotifyCares Been paying customer since 2011, never paused and last week out of nowhere my account switched to Free ? What gives?",
+    "keyword_intent": "device_compatibility",
+    "gold_intent": "subscription_billing",
+    "difficulty": "easy",
+    "notes": "paying customer since 2011 but switched to Free"
+  },
+  {
+    "tweet_id": "1485479",
+    "text": "@115888 my music stops playing once I leave the app. Any suggestions how I can fix that",
+    "keyword_intent": "playback_issue",
+    "gold_intent": "playback_issue",
+    "difficulty": "easy",
+    "notes": "music stops when leaving the app"
+  },
+  {
+    "tweet_id": "1802968",
+    "text": "@115888 Hello. I have been charged twice for my Spotify Premium+Headspace subscription this month. Can you fix it?",
+    "keyword_intent": "subscription_billing",
+    "gold_intent": "subscription_billing",
+    "difficulty": "easy",
+    "notes": "double charged for Premium+Headspace"
+  },
+  {
+    "tweet_id": "2432999",
+    "text": "@SpotifyCares Is there an issue with streaming right now?  I'm getting the \"Can't play the current song\" error no matter what I try to play, on desktop client and mobile app",
+    "keyword_intent": "playback_issue",
+    "gold_intent": "playback_issue",
+    "difficulty": "easy",
+    "notes": "cant play any song, error on desktop and mobile"
+  },
+  {
+    "tweet_id": "351212",
+    "text": "@SpotifyCares Turns out it's my crappy @115858 headphones causing the problem. Nevermind!",
+    "keyword_intent": "device_compatibility",
+    "gold_intent": "other",
+    "difficulty": "easy",
+    "notes": "self-resolved, headphones were the problem"
+  },
+  {
+    "tweet_id": "2733017",
+    "text": "@SpotifyCares confused bc I'm trying to sign up for student membership but it says I'm not a student but last time I checked I got up at 8am everyday for college  please help",
+    "keyword_intent": "device_compatibility",
+    "gold_intent": "subscription_billing",
+    "difficulty": "easy",
+    "notes": "student verification failing"
+  },
+  {
+    "tweet_id": "656551",
+    "text": "@115888 you can pre-save music??? Do tell",
+    "keyword_intent": "other",
+    "gold_intent": "other",
+    "difficulty": "easy",
+    "notes": "curiosity about pre-save feature, not a support issue"
+  },
+  {
+    "tweet_id": "856198",
+    "text": "OKAY BUT WHY ISNT TREAT ME LIKE SOMEBODY BY TINK NOT ON @115888 https://t.co/pdrXu3LAK5",
+    "keyword_intent": "other",
+    "gold_intent": "content_availability",
+    "difficulty": "easy",
+    "notes": "specific song not on Spotify"
+  },
+  {
+    "tweet_id": "1426098",
+    "text": "@SpotifyCares Hi, I cant play any of The Weeknd's songs on my phone. I can via my iPad, though? All other artists work",
+    "keyword_intent": "device_compatibility",
+    "gold_intent": "playback_issue",
+    "difficulty": "medium",
+    "notes": "specific artist wont play on phone but works on iPad"
+  },
+  {
+    "tweet_id": "11178",
+    "text": "Hey @115888  what about being available in India???",
+    "keyword_intent": "country_region",
+    "gold_intent": "country_region",
+    "difficulty": "easy",
+    "notes": "asking about India availability"
+  },
+  {
+    "tweet_id": "786847",
+    "text": "Any ideas why all my @115888 downloads have cleared themselves?",
+    "keyword_intent": "download_offline",
+    "gold_intent": "download_offline",
+    "difficulty": "easy",
+    "notes": "downloads cleared themselves"
+  },
+  {
+    "tweet_id": "2284421",
+    "text": "@SpotifyCares hi, can you please reply to my dm because i don’t understand what’s happening with my account",
+    "keyword_intent": "device_compatibility",
+    "gold_intent": "other",
+    "difficulty": "medium",
+    "notes": "asking for DM follow-up, no specific issue stated"
+  },
+  {
+    "tweet_id": "1606670",
+    "text": "@SpotifyCares hello, can i ask you something? Why my spotify apps always force close after 3-5 songs on my android device? Its annoying",
+    "keyword_intent": "device_compatibility",
+    "gold_intent": "playback_issue",
+    "difficulty": "easy",
+    "notes": "app force closes after 3-5 songs on Android"
+  },
+  {
+    "tweet_id": "313546",
+    "text": "@115888 @SpotifyCares \n\nThis needs to change!\n\n#EnoughIsEnoughAndItsTimeForAChange https://t.co/VDj68yKOBa",
+    "keyword_intent": "device_compatibility",
+    "gold_intent": "other",
+    "difficulty": "hard",
+    "notes": "vague complaint with image, cant determine intent"
+  },
+  {
+    "tweet_id": "1517976",
+    "text": "@3493 I’m probably going to quit Spotify premium for a month.    Things aren’t running well in Canada 🇨🇦",
+    "keyword_intent": "subscription_billing",
+    "gold_intent": "playback_issue",
+    "difficulty": "medium",
+    "notes": "service issues in Canada, considering cancellation"
+  },
+  {
+    "tweet_id": "1968190",
+    "text": "@SpotifyCares I'm currently paying for something I can't use as I have now moved abroad, can you can help me with this issue? https://t.co/D5ScQd0zM8",
+    "keyword_intent": "device_compatibility",
+    "gold_intent": "country_region",
+    "difficulty": "medium",
+    "notes": "moved abroad, cant use paid service"
+  },
+  {
+    "tweet_id": "1777418",
+    "text": "@115888 I know you guys like your ads, but this crosses the line by too far... https://t.co/a8ubXE2Kcx",
+    "keyword_intent": "ads_complaints",
+    "gold_intent": "ads_complaints",
+    "difficulty": "easy",
+    "notes": "inappropriate ad complaint"
+  },
+  {
+    "tweet_id": "2807556",
+    "text": "@SpotifyCares Is there a way I can turn off auto renewal?",
+    "keyword_intent": "subscription_billing",
+    "gold_intent": "subscription_billing",
+    "difficulty": "easy",
+    "notes": "how to turn off auto renewal"
+  },
+  {
+    "tweet_id": "2560577",
+    "text": "Hey @SpotifyCares I need to switch a UK-based Family account over to a US Family one without losing our playlists etc. (now we live here!). Can you help, pretty please?!",
+    "keyword_intent": "device_compatibility",
+    "gold_intent": "subscription_billing",
+    "difficulty": "medium",
+    "notes": "switching UK family account to US family account"
+  },
+  {
+    "tweet_id": "460201",
+    "text": "@SpotifyCares Hello! I'm trying to log in to my web player on Chrome, but every time I'm taken to the login/sign up page, I click login, enter my username and password, then I'm taken back to the login/sign up page. Do you know what might be happening?",
+    "keyword_intent": "account_access",
+    "gold_intent": "account_access",
+    "difficulty": "easy",
+    "notes": "login loop on web player Chrome"
+  },
+  {
+    "tweet_id": "1830760",
+    "text": "Ya @115888 @SpotifyCares, yiu have that presale code for @34804 yet? Cause.... https://t.co/ovVgkZeYrR",
+    "keyword_intent": "device_compatibility",
+    "gold_intent": "other",
+    "difficulty": "easy",
+    "notes": "asking about concert presale code, not support"
+  },
+  {
+    "tweet_id": "1362125",
+    "text": "@115888 you charged me for premium but the app says my payment didn't go through. This is your suggested customer service avenue.",
+    "keyword_intent": "subscription_billing",
+    "gold_intent": "subscription_billing",
+    "difficulty": "easy",
+    "notes": "charged but app says payment didnt go through"
+  },
+  {
+    "tweet_id": "967402",
+    "text": "@115888 Arghhh I’m having password problems... again! Tried the reset, no joy! Help; I need music!",
+    "keyword_intent": "account_access",
+    "gold_intent": "account_access",
+    "difficulty": "easy",
+    "notes": "password reset not working"
+  },
+  {
+    "tweet_id": "1913342",
+    "text": "@SpotifyCares is it really impossible for your app to not delete all my downloaded content every freaking week?",
+    "keyword_intent": "download_offline",
+    "gold_intent": "download_offline",
+    "difficulty": "easy",
+    "notes": "downloads repeatedly deleted every week"
+  },
+  {
+    "tweet_id": "2420502",
+    "text": "Every time i wanna listen to a song the nummer can’t be played! Any help? @SpotifyCares",
+    "keyword_intent": "device_compatibility",
+    "gold_intent": "playback_issue",
+    "difficulty": "easy",
+    "notes": "songs wont play"
+  },
+  {
+    "tweet_id": "1730301",
+    "text": "@SpotifyCares Hi, is there a problem with your site? I can't access the page to create a widget for my website.",
+    "keyword_intent": "account_access",
+    "gold_intent": "other",
+    "difficulty": "medium",
+    "notes": "website widget creation issue, not account access"
+  },
+  {
+    "tweet_id": "560930",
+    "text": "hey @181186 do you accept payment via debit card? And if so, how do I go about this? I only see the credit card option. Please respond, thank you! 😉",
+    "keyword_intent": "subscription_billing",
+    "gold_intent": "subscription_billing",
+    "difficulty": "easy",
+    "notes": "asking if debit card is accepted"
+  },
+  {
+    "tweet_id": "408921",
+    "text": "@SpotifyCares how do you save albums on the new format",
+    "keyword_intent": "device_compatibility",
+    "gold_intent": "playlist_library",
+    "difficulty": "easy",
+    "notes": "how to save albums in new UI"
+  },
+  {
+    "tweet_id": "2383456",
+    "text": "i hate spotify so much like i am trying to listen to nialls album and it keeps putting different songs on shuffle",
+    "keyword_intent": "shuffle_queue",
+    "gold_intent": "shuffle_queue",
+    "difficulty": "easy",
+    "notes": "unwanted shuffle on album playback"
+  },
+  {
+    "tweet_id": "353151",
+    "text": "@SpotifyCares @115888 how do I switch my Premium account to a Family Account!?",
+    "keyword_intent": "subscription_billing",
+    "gold_intent": "subscription_billing",
+    "difficulty": "easy",
+    "notes": "how to switch Premium to Family plan"
+  },
+  {
+    "tweet_id": "895157",
+    "text": "@117153 I paid for Spotify premium for the full year, I have the receipt in my emails. My premium is not working.",
+    "keyword_intent": "subscription_billing",
+    "gold_intent": "subscription_billing",
+    "difficulty": "easy",
+    "notes": "paid for year but premium not working"
+  },
+  {
+    "tweet_id": "761398",
+    "text": "@SpotifyCares your web player won't work on my laptop, the play button is grayed out and music won't play. Logging out/back in does nothing.",
+    "keyword_intent": "playback_issue",
+    "gold_intent": "playback_issue",
+    "difficulty": "easy",
+    "notes": "web player play button grayed out"
+  },
+  {
+    "tweet_id": "2402494",
+    "text": "@SpotifyCares @115888 please god add an equalizer",
+    "keyword_intent": "audio_quality",
+    "gold_intent": "feature_request",
+    "difficulty": "easy",
+    "notes": "requesting equalizer feature"
+  },
+  {
+    "tweet_id": "1897281",
+    "text": ".@115888 @SpotifyCares https://t.co/yVR5NvnsGb 13 pages of comments spanning 2 years and still no action. I guess it's off to @133716",
+    "keyword_intent": "device_compatibility",
+    "gold_intent": "other",
+    "difficulty": "hard",
+    "notes": "vague unresolved issue complaint with link"
+  },
+  {
+    "tweet_id": "1587583",
+    "text": "Hey @115888 nvm! I #googled a solution. All is well. ⚡️ cc: @122986",
+    "keyword_intent": "other",
+    "gold_intent": "other",
+    "difficulty": "easy",
+    "notes": "self-resolved via Google"
+  },
+  {
+    "tweet_id": "2141799",
+    "text": "Hey @SpotifyCares how come I'm receiving the, \"this song is not available. if you have the file on your computer you can import it.\" error message for certain songs?",
+    "keyword_intent": "content_availability",
+    "gold_intent": "content_availability",
+    "difficulty": "easy",
+    "notes": "song not available error for certain songs"
+  },
+  {
+    "tweet_id": "1324017",
+    "text": "@SpotifyCares please I would like to report an error I noticed on the details of one of my favourite tracks on Spotify https://t.co/WuOqizEmSs",
+    "keyword_intent": "device_compatibility",
+    "gold_intent": "other",
+    "difficulty": "medium",
+    "notes": "reporting track metadata error"
+  },
+  {
+    "tweet_id": "130413",
+    "text": "One of my biggest frustrations with @115888 is how awful the @117014 app is. Truly no reason it shouldn’t have every feature my phone and computer do.",
+    "keyword_intent": "other",
+    "gold_intent": "device_compatibility",
+    "difficulty": "medium",
+    "notes": "complaints about iPad app quality"
+  },
+  {
+    "tweet_id": "2239646",
+    "text": "why isn't #reputation on @115888 HELPPPPPPPPPP",
+    "keyword_intent": "other",
+    "gold_intent": "content_availability",
+    "difficulty": "easy",
+    "notes": "Taylor Swift reputation not on Spotify"
+  },
+  {
+    "tweet_id": "2703688",
+    "text": "@115888 So somehow you guys cancelled my Premium for students with @hulu_support, and now I'm incapable of merging the accounts again when I wasn't aware anything would change. How do I fix this?",
+    "keyword_intent": "subscription_billing",
+    "gold_intent": "subscription_billing",
+    "difficulty": "easy",
+    "notes": "student premium with Hulu cancelled unexpectedly"
+  },
+  {
+    "tweet_id": "387106",
+    "text": "@SpotifyCares almost a full year now and still the same problem, im really disappointed from you guys",
+    "keyword_intent": "device_compatibility",
+    "gold_intent": "other",
+    "difficulty": "hard",
+    "notes": "vague long-standing complaint, no specific issue"
+  },
+  {
+    "tweet_id": "2447671",
+    "text": "@SpotifyCares PLEASE PLEASE PLEASE bring back the 3D touch to preview feature. Easily Spotify's best feature - I discovered more music than I can even name through it. People didn't use it because, as I saw with my friends, almost no one knew about it. Please bring it back!!",
+    "keyword_intent": "content_availability",
+    "gold_intent": "feature_request",
+    "difficulty": "easy",
+    "notes": "requesting 3D touch preview feature return"
+  },
+  {
+    "tweet_id": "2060998",
+    "text": "@SpotifyCares So I managed to create an account after much difficulty.  Now my username is random letters, not what I typed.  WTF?",
+    "keyword_intent": "device_compatibility",
+    "gold_intent": "account_access",
+    "difficulty": "medium",
+    "notes": "username randomly assigned during account creation"
+  },
+  {
+    "tweet_id": "703186",
+    "text": "Anyone know how you play all songs in your library on @115888 ??? #spotifyhelp",
+    "keyword_intent": "playlist_library",
+    "gold_intent": "playlist_library",
+    "difficulty": "easy",
+    "notes": "how to play all songs in library"
+  },
+  {
+    "tweet_id": "1162314",
+    "text": "Am I the only whose @115888 iPad app crashes almost every time a videoad comes up? #Spotify @SpotifyCares",
+    "keyword_intent": "playback_issue",
+    "gold_intent": "playback_issue",
+    "difficulty": "easy",
+    "notes": "app crashes during video ads on iPad"
+  },
+  {
+    "tweet_id": "1991909",
+    "text": "@SpotifyCares can you import my playlist Music-1 to my new account. My first account is called akcheeto, 2nd is called akshitmonga1.",
+    "keyword_intent": "device_compatibility",
+    "gold_intent": "account_access",
+    "difficulty": "medium",
+    "notes": "wants to transfer playlist to new account"
+  },
+  {
+    "tweet_id": "2043199",
+    "text": "@SpotifyCares I think someone is using my account. Cause I want to listen to music and somone always change it.",
+    "keyword_intent": "device_compatibility",
+    "gold_intent": "account_access",
+    "difficulty": "easy",
+    "notes": "unauthorized use — someone else controlling playback"
+  },
+  {
+    "tweet_id": "705816",
+    "text": "@SpotifyCares On my subscription page, there's nowhere to add a payment option. Just says \"Stay Premium\" and when I click that it errors",
+    "keyword_intent": "subscription_billing",
+    "gold_intent": "subscription_billing",
+    "difficulty": "easy",
+    "notes": "cant add payment option on subscription page"
+  },
+  {
+    "tweet_id": "2560580",
+    "text": "@115888 When will the app be updated to take advantage of the iPhone X screen?",
+    "keyword_intent": "content_availability",
+    "gold_intent": "feature_request",
+    "difficulty": "easy",
+    "notes": "requesting iPhone X screen support"
+  },
+  {
+    "tweet_id": "2917951",
+    "text": "@SpotifyCares App not working on iPhone. “Error occurred Try Again” message appears. Tried hard reset, delete and reinstalling app. Restarting router. Same issue.",
+    "keyword_intent": "playback_issue",
+    "gold_intent": "playback_issue",
+    "difficulty": "easy",
+    "notes": "app error on iPhone, tried all basic fixes"
+  },
+  {
+    "tweet_id": "2921964",
+    "text": "@115888 is there anyway to turn off or skip videos?",
+    "keyword_intent": "other",
+    "gold_intent": "feature_request",
+    "difficulty": "medium",
+    "notes": "asking to skip/disable videos"
+  },
+  {
+    "tweet_id": "2322391",
+    "text": "@115888 @SpotifyCares im about to go to Apple Music if y’all don’t update the app for iPhone X... #pleaseeeee",
+    "keyword_intent": "device_compatibility",
+    "gold_intent": "device_compatibility",
+    "difficulty": "medium",
+    "notes": "threatening to leave over iPhone X support"
+  },
+  {
+    "tweet_id": "39753",
+    "text": "Extremely unhappy w/ current performance of @115888 app on Apple iOS 11. Almost impossible to use service I pay for. Sad! @SpotifyCares",
+    "keyword_intent": "device_compatibility",
+    "gold_intent": "playback_issue",
+    "difficulty": "medium",
+    "notes": "app performance very poor on iOS 11"
+  },
+  {
+    "tweet_id": "772237",
+    "text": "@116130 @115888 hello Spotify. Can you advise if you are working on equaliser settings for Chromecast? The sound is flat without it...",
+    "keyword_intent": "device_compatibility",
+    "gold_intent": "device_compatibility",
+    "difficulty": "medium",
+    "notes": "asking about equalizer for Chromecast"
+  },
+  {
+    "tweet_id": "1806098",
+    "text": "@115888 can people see my name when they go on my account",
+    "keyword_intent": "other",
+    "gold_intent": "other",
+    "difficulty": "easy",
+    "notes": "privacy question about profile visibility"
+  },
+  {
+    "tweet_id": "2912396",
+    "text": "@SpotifyCares I was logged out of my account and then after repeatedly entering the correct info,i decided to reset my password. I went on the page, clicked send email link but everytime i do it says”the CSRF token is invalid. Please resubmit the form” Please respond soon",
+    "keyword_intent": "account_access",
+    "gold_intent": "account_access",
+    "difficulty": "easy",
+    "notes": "locked out, CSRF error on password reset"
+  },
+  {
+    "tweet_id": "2684270",
+    "text": "@SpotifyCares Hey there recently moved from Ireland to China and having trouble logging in to my account on my laptop, Irish and Chinese phone. Just wondering are you available in China? I have a VPN set up and all other apps work such as facebook. Thanks!",
+    "keyword_intent": "country_region",
+    "gold_intent": "country_region",
+    "difficulty": "easy",
+    "notes": "moved to China, asking about availability"
+  },
+  {
+    "tweet_id": "2623609",
+    "text": "@115888 @SpotifyCares if yall would be so nice and take topsify ad wit that lil white girl off my account that'd be tight",
+    "keyword_intent": "device_compatibility",
+    "gold_intent": "ads_complaints",
+    "difficulty": "easy",
+    "notes": "wants specific ad removed"
+  },
+  {
+    "tweet_id": "1802439",
+    "text": "@spotifycares I have a premium for family account but unable to add myself as fifth member. In loop: msg unable to add. Resend invite. Fail",
+    "keyword_intent": "subscription_billing",
+    "gold_intent": "subscription_billing",
+    "difficulty": "easy",
+    "notes": "cant add 5th member to family plan"
+  },
+  {
+    "tweet_id": "5034",
+    "text": "@115888 can you stop spamming me with \"would you like to open Waze?\" Fuck.",
+    "keyword_intent": "other",
+    "gold_intent": "device_compatibility",
+    "difficulty": "medium",
+    "notes": "Waze integration spamming notifications"
+  },
+  {
+    "tweet_id": "1990719",
+    "text": "@115888 need Apple Watch app ASAP!!!",
+    "keyword_intent": "device_compatibility",
+    "gold_intent": "feature_request",
+    "difficulty": "easy",
+    "notes": "requesting Apple Watch app"
+  },
+  {
+    "tweet_id": "1380853",
+    "text": "@SpotifyCares Why Spotify forces me to buy family premium? \nI want to use as individual monthly. There was an attack on my account, therefore, my payment info removed from my account now I want to buy again but these are my only options. https://t.co/HMSL6NRoM4",
+    "keyword_intent": "subscription_billing",
+    "gold_intent": "subscription_billing",
+    "difficulty": "easy",
+    "notes": "forced to buy family when wants individual"
+  },
+  {
+    "tweet_id": "1070122",
+    "text": "@115888 your app keeps freezing up the past few minutes?",
+    "keyword_intent": "other",
+    "gold_intent": "playback_issue",
+    "difficulty": "easy",
+    "notes": "app freezing"
+  },
+  {
+    "tweet_id": "2959340",
+    "text": "Hay @115888 why Princess Leia's theme isn't in the best of star wars playlist but you have Jabba Flow and not one but two of the Cantina Band songs. Please add Leia's Theme it's such a great SW/John Williams song.",
+    "keyword_intent": "feature_request",
+    "gold_intent": "playlist_library",
+    "difficulty": "medium",
+    "notes": "requesting song added to curated Star Wars playlist"
+  },
+  {
+    "tweet_id": "617741",
+    "text": "@SpotifyCares what is up with your new update?? The search won’t come up 🤷🏻‍♀️",
+    "keyword_intent": "device_compatibility",
+    "gold_intent": "playback_issue",
+    "difficulty": "easy",
+    "notes": "search broken after update"
+  },
+  {
+    "tweet_id": "2937788",
+    "text": "@115888 I’ve updated my payment for my premium &amp; it’s not working :(",
+    "keyword_intent": "subscription_billing",
+    "gold_intent": "subscription_billing",
+    "difficulty": "easy",
+    "notes": "updated payment but premium not working"
+  },
+  {
+    "tweet_id": "1915283",
+    "text": "Hi ! @115888 How can I see the address I put in my familiar plan?",
+    "keyword_intent": "subscription_billing",
+    "gold_intent": "subscription_billing",
+    "difficulty": "easy",
+    "notes": "how to view family plan address"
+  },
+  {
+    "tweet_id": "2412640",
+    "text": "@115888 do you want to explain why itty biggy piggy is no where to be found? @498224",
+    "keyword_intent": "other",
+    "gold_intent": "content_availability",
+    "difficulty": "easy",
+    "notes": "specific song not found"
+  },
+  {
+    "tweet_id": "2116879",
+    "text": "@SpotifyCares make your app compatible for iPhone X",
+    "keyword_intent": "device_compatibility",
+    "gold_intent": "feature_request",
+    "difficulty": "easy",
+    "notes": "requesting iPhone X app compatibility"
+  },
+  {
+    "tweet_id": "1602485",
+    "text": "@SpotifyCares I think this file is error. It starts at 1:46 after the previous song. please help to repair it. tks\nhttps://t.co/jFa7DbJP4a",
+    "keyword_intent": "device_compatibility",
+    "gold_intent": "playback_issue",
+    "difficulty": "medium",
+    "notes": "track starts at wrong timestamp"
+  },
+  {
+    "tweet_id": "2505237",
+    "text": "@SpotifyCares I tried to sign up for the premium student offer, but it says it couldn't confirm that I'm a student. What's up? HELP!!",
+    "keyword_intent": "subscription_billing",
+    "gold_intent": "subscription_billing",
+    "difficulty": "easy",
+    "notes": "student verification failing"
+  },
+  {
+    "tweet_id": "2790812",
+    "text": "Someone made acc using my email witch is even a premium acc, what the hell @115888  ?",
+    "keyword_intent": "subscription_billing",
+    "gold_intent": "account_access",
+    "difficulty": "easy",
+    "notes": "someone created premium account with their email"
+  },
+  {
+    "tweet_id": "2158573",
+    "text": "@115888 please include @85585 #WakeMeUp in the New Releases section",
+    "keyword_intent": "other",
+    "gold_intent": "content_availability",
+    "difficulty": "medium",
+    "notes": "requesting song be in New Releases section"
+  },
+  {
+    "tweet_id": "1941638",
+    "text": "Why do u have to give me 4 ads in a row every time @115888",
+    "keyword_intent": "ads_complaints",
+    "gold_intent": "ads_complaints",
+    "difficulty": "easy",
+    "notes": "4 ads in a row complaint"
+  },
+  {
+    "tweet_id": "1815582",
+    "text": "@117153 just paid 180$ for a year of subscription and it worked for about 2 days and is now saying I only have a free subscription..",
+    "keyword_intent": "subscription_billing",
+    "gold_intent": "subscription_billing",
+    "difficulty": "easy",
+    "notes": "paid  for year but showing free"
+  },
+  {
+    "tweet_id": "1960628",
+    "text": "@SpotifyCares I'm trying to add someone to my family plan but it won't let me",
+    "keyword_intent": "subscription_billing",
+    "gold_intent": "subscription_billing",
+    "difficulty": "easy",
+    "notes": "cant add member to family plan"
+  },
+  {
+    "tweet_id": "2299998",
+    "text": "@SpotifyCares when will you support Multi-Room on Amazon's Echo devices? I reluctantly canceled Spotify bc you don't support that feature!",
+    "keyword_intent": "device_compatibility",
+    "gold_intent": "device_compatibility",
+    "difficulty": "easy",
+    "notes": "requesting multi-room Echo support"
+  },
+  {
+    "tweet_id": "450873",
+    "text": "@SpotifyCares Hey, I need help because I'm having some issues.",
+    "keyword_intent": "device_compatibility",
+    "gold_intent": "other",
+    "difficulty": "hard",
+    "notes": "completely vague, no specific issue"
+  },
+  {
+    "tweet_id": "1593819",
+    "text": "@SpotifyCares restarted my phone, opened spotify, was asked to login again, account is no longer premium and my library is gone.",
+    "keyword_intent": "subscription_billing",
+    "gold_intent": "account_access",
+    "difficulty": "medium",
+    "notes": "logged out + premium gone + library missing"
+  },
+  {
+    "tweet_id": "2211070",
+    "text": "@Ask_Spectrum Will Get Ad fee Spotify in Dec But PCHgames will not fix will not take ads off please make faster not getting stuck or going off or up in price",
+    "keyword_intent": "subscription_billing",
+    "gold_intent": "other",
+    "difficulty": "hard",
+    "notes": "incoherent message, unclear if about Spotify"
+  },
+  {
+    "tweet_id": "521813",
+    "text": "@SpotifyCares Just got this email and I didn't make the change- I can't even log into my account anymore. What can I do to fix it? https://t.co/ltjO4jOm5E",
+    "keyword_intent": "device_compatibility",
+    "gold_intent": "account_access",
+    "difficulty": "easy",
+    "notes": "unauthorized email change + locked out"
+  },
+  {
+    "tweet_id": "2086453",
+    "text": "my spotify username is like a link to a deep web which shows human torture.",
+    "keyword_intent": "other",
+    "gold_intent": "other",
+    "difficulty": "medium",
+    "notes": "username display concern, unusual issue"
+  },
+  {
+    "tweet_id": "2572183",
+    "text": "@SpotifyCares now I’m paying 10.69 a month without Hulu. Can you help me out",
+    "keyword_intent": "device_compatibility",
+    "gold_intent": "subscription_billing",
+    "difficulty": "easy",
+    "notes": "lost Hulu bundle, paying more"
+  },
+  {
+    "tweet_id": "1839357",
+    "text": "I don't think @115888 knows the difference between @12899 and @131175 https://t.co/1djT6xreQY",
+    "keyword_intent": "audio_quality",
+    "gold_intent": "other",
+    "difficulty": "medium",
+    "notes": "artist attribution/metadata error between two artists"
+  },
+  {
+    "tweet_id": "2520085",
+    "text": "so on the @117168 charts there's a song called \"the race\" by this kid named 22 savage and it's pretty much the exact same song by @97944\n \n¯\\_(ツ)_/¯",
+    "keyword_intent": "other",
+    "gold_intent": "other",
+    "difficulty": "easy",
+    "notes": "observation about similar songs on charts"
+  },
+  {
+    "tweet_id": "1677316",
+    "text": "Hey @115888 it’s 2017 and we still can’t save the current song outside of the Spotify app #LetsMakeMoves",
+    "keyword_intent": "other",
+    "gold_intent": "feature_request",
+    "difficulty": "easy",
+    "notes": "requesting ability to save songs outside app"
+  },
+  {
+    "tweet_id": "2795556",
+    "text": "@SpotifyCares why can’t i listen to previews anymore",
+    "keyword_intent": "device_compatibility",
+    "gold_intent": "playback_issue",
+    "difficulty": "medium",
+    "notes": "cant listen to previews anymore"
+  },
+  {
+    "tweet_id": "1740425",
+    "text": "@SpotifyCares how do I view the full featured artists instead of seeing the dots? When the song is playing it doesn’t even list the features https://t.co/cNkHFMl1KV",
+    "keyword_intent": "device_compatibility",
+    "gold_intent": "other",
+    "difficulty": "medium",
+    "notes": "UI question about viewing featured artists"
+  },
+  {
+    "tweet_id": "2477835",
+    "text": "@117153 I normally have a premium account, now my premium account is gone. However my boyfriend has no issues and we have the family account. How can I fix this",
+    "keyword_intent": "subscription_billing",
+    "gold_intent": "subscription_billing",
+    "difficulty": "easy",
+    "notes": "premium disappeared on family plan"
+  },
+  {
+    "tweet_id": "54535",
+    "text": "@115888 when will astros new albums be added pls and thanks",
+    "keyword_intent": "content_availability",
+    "gold_intent": "content_availability",
+    "difficulty": "easy",
+    "notes": "asking when new album will be added"
+  },
+  {
+    "tweet_id": "2062537",
+    "text": "@116380 @115888 lads, I’m just trying to sleep to a fucking sleep playlist and ur ads keep waking me up, evry nite mate. Plz help me out",
+    "keyword_intent": "playlist_library",
+    "gold_intent": "ads_complaints",
+    "difficulty": "easy",
+    "notes": "ads waking user up during sleep playlist"
+  },
+  {
+    "tweet_id": "554140",
+    "text": "@SpotifyCares hi! My Spotify app on my Galaxy S7 Edge always freezes when I reach a certain song, to the point that even restarting my phone does nothing. Can you help?",
+    "keyword_intent": "playback_issue",
+    "gold_intent": "playback_issue",
+    "difficulty": "easy",
+    "notes": "app freezes at certain song on Galaxy S7"
+  },
+  {
+    "tweet_id": "2368051",
+    "text": "Where TF are @10789's \"The Suburbs\" and \"Reflektor\", @115888 @6443 ?!?!?!",
+    "keyword_intent": "other",
+    "gold_intent": "content_availability",
+    "difficulty": "easy",
+    "notes": "specific albums missing"
+  },
+  {
+    "tweet_id": "2448604",
+    "text": "@115888 bring back the hold to preview feature please god",
+    "keyword_intent": "content_availability",
+    "gold_intent": "feature_request",
+    "difficulty": "easy",
+    "notes": "requesting return of hold-to-preview feature"
+  },
+  {
+    "tweet_id": "139103",
+    "text": "@SpotifyCares I’ve been sent an email from Spotify saying that my email address has been changed. How can I be sure that it’s not fake/span?",
+    "keyword_intent": "device_compatibility",
+    "gold_intent": "account_access",
+    "difficulty": "easy",
+    "notes": "suspicious email about email address change"
+  },
+  {
+    "tweet_id": "895201",
+    "text": "@SpotifyCares \nHello, someone entered my account and changed the email with which I am registered. I need to recover my account",
+    "keyword_intent": "device_compatibility",
+    "gold_intent": "account_access",
+    "difficulty": "easy",
+    "notes": "someone changed account email, needs recovery"
+  },
+  {
+    "tweet_id": "633978",
+    "text": "Why doesn't @115888 have a 'shuffle from here' option?",
+    "keyword_intent": "shuffle_queue",
+    "gold_intent": "feature_request",
+    "difficulty": "medium",
+    "notes": "requesting shuffle from here option"
+  },
+  {
+    "tweet_id": "1013198",
+    "text": "@SpotifyCares will internet explorer at my work computer support webplayer again or is it never going to happen??",
+    "keyword_intent": "device_compatibility",
+    "gold_intent": "device_compatibility",
+    "difficulty": "easy",
+    "notes": "IE web player compatibility"
+  },
+  {
+    "tweet_id": "2610025",
+    "text": "@115888 where is Peekaboo album?? Please release it!",
+    "keyword_intent": "content_availability",
+    "gold_intent": "content_availability",
+    "difficulty": "easy",
+    "notes": "album not available"
+  },
+  {
+    "tweet_id": "199121",
+    "text": "@SpotifyCares Please don’t make this the default view of artwork when playing a song. Thanks. https://t.co/ihBfPlxirS",
+    "keyword_intent": "device_compatibility",
+    "gold_intent": "feature_request",
+    "difficulty": "easy",
+    "notes": "UI feedback about default artwork view"
+  },
+  {
+    "tweet_id": "2285206",
+    "text": "@SpotifyCares any reason i’ve been sent 6 different email receipts for premium but my account is still saying free subscription?🤔🤔",
+    "keyword_intent": "subscription_billing",
+    "gold_intent": "subscription_billing",
+    "difficulty": "easy",
+    "notes": "6 payment receipts but still showing free"
+  },
+  {
+    "tweet_id": "2081707",
+    "text": "@SpotifyCares someone else is registered with my personal email. Who can help?",
+    "keyword_intent": "account_access",
+    "gold_intent": "account_access",
+    "difficulty": "easy",
+    "notes": "someone else registered with their email"
+  },
+  {
+    "tweet_id": "1269673",
+    "text": "@117153 Hi,  I already processed my payment  and the transaction number is BP__credit_card__. But, service is still not working.",
+    "keyword_intent": "playback_issue",
+    "gold_intent": "subscription_billing",
+    "difficulty": "medium",
+    "notes": "paid but service not working — billing is primary"
+  },
+  {
+    "tweet_id": "2321766",
+    "text": "Is there a way to reset my @115888 discover weekly preferences? I feel like it recommends music to me that I stopped listening to over a year ago.",
+    "keyword_intent": "playlist_library",
+    "gold_intent": "playlist_library",
+    "difficulty": "easy",
+    "notes": "how to reset Discover Weekly preferences"
+  },
+  {
+    "tweet_id": "413754",
+    "text": "Hey @5413 - why isn’t your Christmas album on @115888 ? Who do we complain to? @SpotifyCares @117168",
+    "keyword_intent": "device_compatibility",
+    "gold_intent": "content_availability",
+    "difficulty": "easy",
+    "notes": "Christmas album not on Spotify"
+  },
+  {
+    "tweet_id": "2565895",
+    "text": "@Spotifycares my navigation at the bottom of the screen went away?? Also the UX on an iPhone X needs some help pls let me know if I should start a https://t.co/ERiUjpJUMS petition. https://t.co/4mXNaUY8cV",
+    "keyword_intent": "device_compatibility",
+    "gold_intent": "device_compatibility",
+    "difficulty": "easy",
+    "notes": "navigation gone + iPhone X UX issues"
+  },
+  {
+    "tweet_id": "2905906",
+    "text": "@SpotifyCares my awesome daily mix of electronic music that i listened to on the reg has vanished and been replaced by a pop music daily mix, an 80s dm, and a classical music dm. my listening habits havent changed, beyond more acoustic indie. wtf???",
+    "keyword_intent": "device_compatibility",
+    "gold_intent": "playlist_library",
+    "difficulty": "easy",
+    "notes": "Daily Mix suddenly changed genres"
+  },
+  {
+    "tweet_id": "1705686",
+    "text": "@SpotifyCares I am having problems connecting my student account to the Hulu page. Every time I try it tells me it is unavailable. Help pls!",
+    "keyword_intent": "device_compatibility",
+    "gold_intent": "subscription_billing",
+    "difficulty": "easy",
+    "notes": "student account Hulu connection failing"
+  },
+  {
+    "tweet_id": "1962991",
+    "text": "@SpotifyCares just moved in with my sister and trying to join her family plan,  but getting a error 4- oops something went wrong. please help",
+    "keyword_intent": "subscription_billing",
+    "gold_intent": "subscription_billing",
+    "difficulty": "easy",
+    "notes": "error joining family plan"
+  },
+  {
+    "tweet_id": "2369714",
+    "text": "@SpotifyCares ... months without asking or prompting a change. THATS SO UNFAIR. I WAS PAYING FOR THIS UNKNOWINGLY... REFUND MY MONEY. 😡😡😡",
+    "keyword_intent": "subscription_billing",
+    "gold_intent": "subscription_billing",
+    "difficulty": "easy",
+    "notes": "charged unknowingly for months, wants refund"
+  },
+  {
+    "tweet_id": "1242927",
+    "text": "Hey @SpotifyCares, i'm having trouble joining a family premium plan. I already tried 2 different accounts but it still dsn't work. Pls help",
+    "keyword_intent": "subscription_billing",
+    "gold_intent": "subscription_billing",
+    "difficulty": "easy",
+    "notes": "trouble joining family plan"
+  },
+  {
+    "tweet_id": "499273",
+    "text": "@SpotifyCares you have locked my friend out of her account and she will not stop bothering me at work. please help her change her payment info. Her name is Riley Barsella and she needs some tunes!!!!!",
+    "keyword_intent": "subscription_billing",
+    "gold_intent": "subscription_billing",
+    "difficulty": "medium",
+    "notes": "friend locked out, needs payment info changed"
+  },
+  {
+    "tweet_id": "1764680",
+    "text": "@SpotifyCares Hey, my problem: spotify-App doesn't open any more. I use WP 8, actualized, even tried to download it new - what can I do?",
+    "keyword_intent": "download_offline",
+    "gold_intent": "playback_issue",
+    "difficulty": "easy",
+    "notes": "app wont open on Windows Phone — keyword caught download"
+  },
+  {
+    "tweet_id": "1944801",
+    "text": "spotify better launch in azerbaijan my girl mila deserves to stream some billie eilish",
+    "keyword_intent": "country_region",
+    "gold_intent": "country_region",
+    "difficulty": "easy",
+    "notes": "requesting Spotify launch in Azerbaijan"
+  },
+  {
+    "tweet_id": "2075578",
+    "text": "@117153 my premium account doesn’t work anymore... how can I fix this?",
+    "keyword_intent": "subscription_billing",
+    "gold_intent": "subscription_billing",
+    "difficulty": "easy",
+    "notes": "premium not working anymore"
+  },
+  {
+    "tweet_id": "1585554",
+    "text": "Dear @115888 is there no way to alphabetize my playlists? Teach me this hack and also how to #dougie.",
+    "keyword_intent": "playlist_library",
+    "gold_intent": "playlist_library",
+    "difficulty": "easy",
+    "notes": "how to alphabetize playlists"
+  },
+  {
+    "tweet_id": "426791",
+    "text": "@SpotifyCares I was just billed twice. Help. Please.",
+    "keyword_intent": "device_compatibility",
+    "gold_intent": "subscription_billing",
+    "difficulty": "easy",
+    "notes": "double charged — keyword mislabeled as device"
+  },
+  {
+    "tweet_id": "1351223",
+    "text": "i wish you could reverse the order of albums in @115888",
+    "keyword_intent": "feature_request",
+    "gold_intent": "feature_request",
+    "difficulty": "easy",
+    "notes": "requesting album order reversal feature"
+  },
+  {
+    "tweet_id": "1889088",
+    "text": "I lost my premium 😭 @148611",
+    "keyword_intent": "subscription_billing",
+    "gold_intent": "subscription_billing",
+    "difficulty": "easy",
+    "notes": "lost premium"
+  },
+  {
+    "tweet_id": "1266600",
+    "text": "@SpotifyCares been trying to use the log out everywhere but it’s still playing on my web browser at work can u log it out for me please ?",
+    "keyword_intent": "device_compatibility",
+    "gold_intent": "account_access",
+    "difficulty": "easy",
+    "notes": "log out everywhere not working on web browser"
+  },
+  {
+    "tweet_id": "1190792",
+    "text": "@SpotifyCares Hello, I have upgraded to Family but every time I try to add a user, I get a blank page. Can you help please? thank you",
+    "keyword_intent": "subscription_billing",
+    "gold_intent": "subscription_billing",
+    "difficulty": "easy",
+    "notes": "blank page when adding family member"
+  },
+  {
+    "tweet_id": "2198150",
+    "text": "Hi @115888 \nwhy isn't Dr Dre's album \"Compton\" not available for streaming?",
+    "keyword_intent": "content_availability",
+    "gold_intent": "content_availability",
+    "difficulty": "easy",
+    "notes": "Dr Dre album not available for streaming"
+  },
+  {
+    "tweet_id": "2028417",
+    "text": "@115888 I cancelled Spotify but u have taken payment again ?",
+    "keyword_intent": "subscription_billing",
+    "gold_intent": "subscription_billing",
+    "difficulty": "easy",
+    "notes": "cancelled but charged again"
+  },
+  {
+    "tweet_id": "1099893",
+    "text": "@SpotifyCares @SpotifyCares sorry to bother you again, but i still don’t have access to the song",
+    "keyword_intent": "device_compatibility",
+    "gold_intent": "content_availability",
+    "difficulty": "medium",
+    "notes": "still cant access song after previous support"
+  },
+  {
+    "tweet_id": "1049680",
+    "text": "@SpotifyCares I'm on Android (a Pixel specifically) and when I'm casting my phone's volume keys/media controls menus don't adjust the Chromecast volume like they used to (in or out of the actual Spotify app).",
+    "keyword_intent": "device_compatibility",
+    "gold_intent": "device_compatibility",
+    "difficulty": "easy",
+    "notes": "Chromecast volume control not working on Pixel"
+  },
+  {
+    "tweet_id": "695456",
+    "text": "@115888 your 1.0.64.399 upgrade (from 1.0.63....) on Windows made all songs sound like shit. No more bass, just a lot of treble :(",
+    "keyword_intent": "subscription_billing",
+    "gold_intent": "audio_quality",
+    "difficulty": "easy",
+    "notes": "update ruined sound — no bass, too much treble"
+  },
+  {
+    "tweet_id": "1146454",
+    "text": "@SpotifyCares I was charged the subscription but I cant use spotify premium. Whats going on?",
+    "keyword_intent": "subscription_billing",
+    "gold_intent": "subscription_billing",
+    "difficulty": "easy",
+    "notes": "charged but premium not usable"
+  },
+  {
+    "tweet_id": "1467033",
+    "text": "@115888 I get this problem from time to time. I need to redownload all the songs that I've already downloaded months ago. ?? #Spotify",
+    "keyword_intent": "download_offline",
+    "gold_intent": "download_offline",
+    "difficulty": "easy",
+    "notes": "recurring download loss, needs to redownload"
+  },
+  {
+    "tweet_id": "2216065",
+    "text": "about to set spotify on fire because it isn't loading a damn thing.",
+    "keyword_intent": "other",
+    "gold_intent": "playback_issue",
+    "difficulty": "easy",
+    "notes": "nothing loading at all"
+  },
+  {
+    "tweet_id": "1049982",
+    "text": "Goodbye @115888, cancelling and moving to Apple Music because there is no app for Apple Watch (I need/use for working out) @SpotifyCares",
+    "keyword_intent": "device_compatibility",
+    "gold_intent": "device_compatibility",
+    "difficulty": "easy",
+    "notes": "leaving due to no Apple Watch app"
+  },
+  {
+    "tweet_id": "2580786",
+    "text": "@SpotifyCares Where to go for the student discounts?",
+    "keyword_intent": "subscription_billing",
+    "gold_intent": "subscription_billing",
+    "difficulty": "easy",
+    "notes": "where to find student discount"
+  },
+  {
+    "tweet_id": "848501",
+    "text": "@SpotifyCares what the fuck is this shit? Why the fuck would I wanna remove any songs? My library is dope as fuck. Fix this shit. https://t.co/qB74k9FPIC",
+    "keyword_intent": "device_compatibility",
+    "gold_intent": "playlist_library",
+    "difficulty": "medium",
+    "notes": "angry about library song removal prompt/limit"
+  },
+  {
+    "tweet_id": "1946623",
+    "text": "@115888, how do I upgrade from Premium to the Family plan? Should I wait 'till the end of the month so I don't pay twice? Thanks!",
+    "keyword_intent": "subscription_billing",
+    "gold_intent": "subscription_billing",
+    "difficulty": "easy",
+    "notes": "how to upgrade Premium to Family, timing question"
+  },
+  {
+    "tweet_id": "885019",
+    "text": "We have multiple releases on @115888 not correctly attributed to us. Wonderful 😒",
+    "keyword_intent": "other",
+    "gold_intent": "other",
+    "difficulty": "medium",
+    "notes": "artist reporting incorrect attribution on releases"
+  },
+  {
+    "tweet_id": "124126",
+    "text": "@SpotifyCares do y'all have a customer service number",
+    "keyword_intent": "device_compatibility",
+    "gold_intent": "other",
+    "difficulty": "easy",
+    "notes": "asking for customer service phone number"
+  },
+  {
+    "tweet_id": "2021744",
+    "text": "@115888  @SpotifyCares @5795 @3072 any eta on #iPhoneX support? #spotify",
+    "keyword_intent": "device_compatibility",
+    "gold_intent": "device_compatibility",
+    "difficulty": "easy",
+    "notes": "asking about iPhone X support ETA"
+  },
+  {
+    "tweet_id": "609535",
+    "text": "@SpotifyCares I’m desperate to get back my Spotify account. Can’t remember password or email.. HELP PLEASEEEEE",
+    "keyword_intent": "account_access",
+    "gold_intent": "account_access",
+    "difficulty": "easy",
+    "notes": "cant remember password or email"
+  },
+  {
+    "tweet_id": "1880034",
+    "text": "@SpotifyCares hi fatties! is it true that spotify is gonna be available in Romania on 28 november?",
+    "keyword_intent": "device_compatibility",
+    "gold_intent": "country_region",
+    "difficulty": "easy",
+    "notes": "asking about Romania availability"
+  },
+  {
+    "tweet_id": "147418",
+    "text": "@SpotifyCares any news for when #reputation  will be out on Spotify #taylorswift",
+    "keyword_intent": "device_compatibility",
+    "gold_intent": "content_availability",
+    "difficulty": "easy",
+    "notes": "asking when Taylor Swift reputation will be on Spotify"
+  }
+]

@@ -1,0 +1,471 @@
+{
+  "version": "1.0",
+  "brand": "SpotifyCares",
+  "intents": {
+    "subscription_billing": {
+      "articles": [
+        {
+          "topic": "Cancel Premium",
+          "url": "https://support.spotify.com/us/article/cancel-premium/",
+          "steps": [
+            "Go to your account page at spotify.com/account",
+            "Click 'Manage your plan'",
+            "Select 'Cancel subscription'",
+            "Your Premium continues until the next billing date, then converts to free"
+          ],
+          "notes": [
+            "Canceling during a free trial switches you to free immediately",
+            "Playlists and saved music stay after downgrading",
+            "Family/Duo members: leaving the plan doesn't cancel it — contact the plan manager",
+            "If no cancel option appears, your sub is through a partner (check Payment section for their contact)"
+          ]
+        },
+        {
+          "topic": "Change Payment Details",
+          "url": "https://support.spotify.com/us/article/change-payment-details/",
+          "steps": [
+            "Go to spotify.com/account",
+            "Navigate to 'Payment methods'",
+            "Select 'Add' for new or 'Change' for existing methods",
+            "Confirm with 'Add/Change payment method'"
+          ],
+          "notes": [
+            "A small temporary authorization charge may appear — it disappears shortly",
+            "To remove a saved card: Payment methods > Saved payment methods > Remove"
+          ]
+        },
+        {
+          "topic": "Failed Payment",
+          "url": "https://support.spotify.com/us/article/failed-payment/",
+          "steps": [
+            "Retry payment in a private/incognito browser window",
+            "Try a different payment method",
+            "Wait a few hours — may be a temporary connection issue",
+            "Contact your bank or payment provider directly"
+          ],
+          "requirements": [
+            "Payment method must have sufficient funds",
+            "Must be registered in the same country as your Spotify account",
+            "Must not be expired or canceled",
+            "Must be enabled for foreign, secure online, and recurring purchases"
+          ],
+          "notes": [
+            "You won't immediately lose Premium if a payment fails — Spotify retries over the next few days"
+          ]
+        },
+        {
+          "topic": "Premium Plans",
+          "url": "https://spotify.com/us/premium/",
+          "plans": {
+            "Individual": "$12.99/month — 1 account, ad-free, lossless, offline, 15 audiobook hrs",
+            "Student": "$6.99/month — 1 account, all Individual features + Hulu",
+            "Duo": "$18.99/month — 2 accounts, same address required",
+            "Family": "$21.99/month — up to 6 accounts, parental controls, same address required"
+          }
+        }
+      ],
+      "top_urls": {
+        "https://t.co/ldFdZRiNAt": 3408,
+        "https://t.co/ZgU70TbP8M": 131,
+        "https://t.co/ldFdZR1cbT": 116,
+        "https://t.co/38J7tFlIBF": 29,
+        "https://t.co/zgnxs5kPEu": 17,
+        "https://t.co/0i8GpimuDa": 16,
+        "https://t.co/WB5TSxRfDe": 14,
+        "https://t.co/08kG2GBNp5": 14,
+        "https://t.co/1iF7T0iEU2": 12,
+        "https://t.co/Q1zNbUXR4q": 11
+      }
+    },
+    "device_compatibility": {
+      "articles": [
+        {
+          "topic": "Spotify Connect",
+          "url": "https://support.spotify.com/us/article/spotify-connect/",
+          "steps": [
+            "Connect all devices to the same WiFi network",
+            "Open Spotify and start playing",
+            "Tap the connect/device icon at the bottom",
+            "Select your target device"
+          ],
+          "troubleshooting": [
+            "Device not showing? Toggle 'Local device visibility' in Settings > Apps and devices",
+            "iPhone users: grant local network access in iOS Settings > Spotify > Local Network",
+            "Restart the Spotify app and target device",
+            "Make sure all software is up to date",
+            "Try resetting WiFi or switching networks",
+            "Android TV: enable 'display over other apps' in TV Settings > Apps > Special app access",
+            "If paused for 10+ minutes, you may need to reconnect"
+          ]
+        },
+        {
+          "topic": "Bluetooth",
+          "url": "https://support.spotify.com/us/article/bluetooth/",
+          "steps": [
+            "Close Spotify first",
+            "Turn on Bluetooth on both devices",
+            "Pair them in Bluetooth settings",
+            "Open Spotify and play"
+          ],
+          "troubleshooting": [
+            "Keep devices within 1 meter / 3 feet of each other",
+            "Disconnect other Bluetooth devices (some only allow one connection)",
+            "Check that Bluetooth allows media sharing in device settings",
+            "Make sure both devices have enough battery",
+            "Re-pair: Forget/Unpair the device > Bluetooth off then on > reconnect"
+          ]
+        },
+        {
+          "topic": "Spotify on PlayStation",
+          "url": "https://support.spotify.com/us/article/spotify-on-playstation/",
+          "supported": "PS5 and PS4",
+          "login_methods": [
+            "Enter Spotify email and password directly",
+            "Use Spotify Connect from your phone/tablet",
+            "Select LOG IN WITH PIN > visit spotify.com/pair on another device"
+          ],
+          "controls": {
+            "PS5": "Press PS button > select Music from control center",
+            "PS4": "Press and hold PS button > select Spotify"
+          },
+          "disconnect": [
+            "Web: spotify.com/account > Manage apps > Remove Access for Sony",
+            "Console: Settings > Users and Accounts > Link Services > Spotify > Unlink"
+          ],
+          "tip": "Disable in-game music for the best experience while gaming"
+        },
+        {
+          "topic": "Spotify on Speakers",
+          "url": "https://support.spotify.com/us/article/spotify-on-speakers/",
+          "connection_methods": [
+            "Spotify Connect",
+            "Voice Assistants",
+            "Bluetooth",
+            "AUX or USB cable",
+            "Google Chromecast Audio",
+            "Apple AirPlay"
+          ],
+          "troubleshooting": [
+            "Update app and device software",
+            "Restart Spotify app",
+            "Close unused apps",
+            "Restart speaker and other devices",
+            "Restart WiFi router",
+            "Try a different WiFi network",
+            "For cables: try a different cable"
+          ]
+        }
+      ],
+      "top_urls": {
+        "https://t.co/ldFdZRiNAt": 3706,
+        "https://t.co/LgAM6ky9Vv": 414,
+        "https://t.co/0i8GpimuDa": 388,
+        "https://t.co/EqisDMwZAT": 271,
+        "https://t.co/m4HWSbgHVZ": 271,
+        "https://t.co/LpsmyUtme0": 186,
+        "https://t.co/zOXI69QSqg": 175,
+        "https://t.co/AUc7DGJpgF": 160,
+        "https://t.co/ldFdZR1cbT": 138,
+        "https://t.co/uEkAlnxbzn": 119
+      }
+    },
+    "playback_issue": {
+      "articles": [
+        {
+          "topic": "Playback Troubleshooting",
+          "steps": [
+            "Force close Spotify and reopen it",
+            "Log out > restart device > log back in",
+            "Check internet connection (switch between WiFi and mobile data)",
+            "Check if Spotify is down (status page or downdetector)"
+          ],
+          "device_specific": {
+            "iPhone": "Restart by holding Sleep/Wake + Volume Down for 10 seconds",
+            "Android": "Force stop: Settings > Apps > Spotify > Force Stop",
+            "Desktop": "Close app completely (check system tray) and relaunch"
+          },
+          "reinstall": [
+            "Uninstall Spotify completely",
+            "Restart your device",
+            "Reinstall from App Store / Play Store / spotify.com",
+            "Log back in (offline downloads will need re-downloading)"
+          ],
+          "common_causes": [
+            "Another app taking audio focus (Snapchat, phone calls, navigation)",
+            "Outdated app version",
+            "Low device storage",
+            "Corrupted cache"
+          ]
+        }
+      ],
+      "top_urls": {
+        "https://t.co/ldFdZRiNAt": 150,
+        "https://t.co/EqisDMwZAT": 8,
+        "https://t.co/ldFdZR1cbT": 7,
+        "https://t.co/cxGHt0bCR8": 4,
+        "https://t.co/X8DVSX9QgM": 2,
+        "https://t.co/oGDLtirXki": 2,
+        "https://t.co/MEjmIRL2eB": 2,
+        "https://t.co/0i8GpimuDa": 2,
+        "https://t.co/p1wbtdELHu": 2,
+        "https://t.co/NXWaP3cMnY": 2
+      }
+    },
+    "account_access": {
+      "articles": [
+        {
+          "topic": "Protect Your Account",
+          "url": "https://support.spotify.com/us/article/protect-your-account/",
+          "password_tips": [
+            "Use long passwords with letters, numbers, and special characters",
+            "Use a different password for each service",
+            "Change your password regularly",
+            "Never share your password"
+          ],
+          "sign_out_everywhere": [
+            "Go to spotify.com/account",
+            "Under Security and privacy, select 'Sign out everywhere'",
+            "Confirm the action",
+            "Note: this doesn't cover speakers/consoles/TVs — remove those via Manage apps"
+          ],
+          "if_hacked": [
+            "Reset your password immediately at spotify.com/password-reset",
+            "Sign out everywhere from your account page",
+            "Remove unrecognized third-party apps",
+            "Check your email address hasn't been changed",
+            "Contact Spotify support if you can't access your account at all"
+          ]
+        }
+      ],
+      "top_urls": {
+        "https://t.co/ldFdZRiNAt": 740,
+        "https://t.co/QHn3ok8y2n": 101,
+        "https://t.co/ldFdZR1cbT": 25,
+        "https://t.co/ZgU70TbP8M": 10,
+        "https://t.co/iVpg60w61i": 9,
+        "https://t.co/jGP5GWOoVY": 7,
+        "https://t.co/QHn3okq8TV": 5,
+        "https://t.co/EQsHGd5NCy": 4,
+        "https://t.co/m4HWSbgHVZ": 2,
+        "https://t.co/YbSHEKRk7m": 2
+      }
+    },
+    "shuffle_queue": {
+      "articles": [
+        {
+          "topic": "Shuffle",
+          "url": "https://support.spotify.com/us/article/shuffle/",
+          "how_to": "Tap the shuffle icon to toggle. Off = plays in order. On = plays randomly.",
+          "styles_premium": {
+            "Fewer Repeats": "Tracks what you've played recently, picks from multiple random sequences. Reduces repetition.",
+            "Standard": "Pure random — every track has equal chance. May repeat sooner."
+          },
+          "smart_shuffle": {
+            "what": "Mixes in recommended songs matching the playlist vibe (marked with Enhance badge)",
+            "free_mobile": "Always active",
+            "premium": "Toggle via shuffle icon in playlists",
+            "disable": "Profile > Settings and privacy > Playback > toggle off 'Include Smart Shuffle in play modes'"
+          }
+        },
+        {
+          "topic": "Play Queue",
+          "url": "https://support.spotify.com/us/article/play-queue/",
+          "mobile": {
+            "open": "Tap Now Playing bar > tap queue icon",
+            "add": "Tap ··· next to a track > 'Add to Queue'",
+            "reorder": "Tap and hold drag icon > drag to position",
+            "remove": "Swipe left on the track",
+            "clear": "Tap queue icon > 'Clear'"
+          },
+          "desktop": {
+            "open": "Click queue icon near playback controls",
+            "add": "Right-click track > 'Add to queue'",
+            "reorder": "Click and drag to reposition",
+            "remove": "Right-click > remove",
+            "clear": "'Clear queue' > confirm 'Yes'"
+          }
+        }
+      ],
+      "top_urls": {
+        "https://t.co/T3vZnSL3od": 99,
+        "https://t.co/ldFdZRiNAt": 69,
+        "https://t.co/rtDvYZOF32": 13,
+        "https://t.co/Uv9kyGcsCc": 5,
+        "https://t.co/Lx02el9U59": 5,
+        "https://t.co/G7PK3sVrTN": 4,
+        "https://t.co/AdMgwOmTIH": 4,
+        "https://t.co/EqisDMwZAT": 4,
+        "https://t.co/m4HWSbgHVZ": 4,
+        "https://t.co/1C2irRNpwm": 4
+      }
+    },
+    "audio_quality": {
+      "articles": [
+        {
+          "topic": "Audio Quality Settings",
+          "url": "https://support.spotify.com/us/article/audio-quality/",
+          "quality_tiers": {
+            "Free": {
+              "Web": "AAC 128kbit/s (fixed)",
+              "App": "Auto | Low ~24kbit/s | Normal ~96kbit/s | High ~160kbit/s"
+            },
+            "Premium": {
+              "Web": "AAC 256kbit/s (fixed)",
+              "App": "Auto | Low ~24kbit/s | Normal ~96kbit/s | High ~160kbit/s | Very High ~320kbit/s | Lossless 24-bit/44.1kHz FLAC"
+            }
+          },
+          "how_to_change": {
+            "Mobile/Tablet": "Profile pic > Settings and privacy > Media Quality (separate WiFi vs cellular settings)",
+            "Desktop": "Profile pic > Settings > Audio Quality",
+            "Web Player": "Cannot change — download the app for quality options"
+          },
+          "tips": [
+            "Auto-adjust is on by default to prevent stuttering — turn it off for manual control",
+            "Podcasts stream at ~96kbit/s (128 on web). Low quality drops them to ~24kbit/s",
+            "Lossless requires Premium and a supported device"
+          ]
+        }
+      ],
+      "top_urls": {
+        "https://t.co/jA0OzJ0OO3": 6,
+        "https://t.co/IpJ5gsVupb": 1,
+        "https://t.co/RT7XNMNEAr": 1,
+        "https://t.co/LpsmyUbKPq": 1,
+        "https://t.co/GweRoESxcB": 1
+      }
+    },
+    "ads_complaints": {
+      "articles": [
+        {
+          "topic": "Ads on Spotify Free",
+          "how_ads_work": "Spotify Free includes audio and display ads between songs to support free access.",
+          "reduce_ads": [
+            "Upgrade to Premium ($12.99/month Individual, $6.99/month Student) for ad-free listening",
+            "Watch a video ad when offered for 30 minutes of ad-free listening (mobile only)"
+          ],
+          "common_issues": {
+            "30min_not_working": "If the app crashes during the 30-minute window, the timer resets. Watch the full video ad and keep the app open.",
+            "too_many_ads": "Ad frequency is set by Spotify and can't be customized on the free tier.",
+            "inappropriate_ad": "Report inappropriate ads through the app or contact support."
+          },
+          "note": "There is no setting to reduce ad frequency or customize ads on the free tier."
+        }
+      ],
+      "top_urls": {
+        "https://t.co/ldFdZRiNAt": 324,
+        "https://t.co/0i8GpimuDa": 202,
+        "https://t.co/ZgU70TbP8M": 72,
+        "https://t.co/zgnxs5kPEu": 60,
+        "https://t.co/WI0fi3V8Cu": 32,
+        "https://t.co/MEjmIRL2eB": 26,
+        "https://t.co/rtDvYZOF32": 23,
+        "https://t.co/3h0TnPWP0c": 22,
+        "https://t.co/X8DVSX9QgM": 21,
+        "https://t.co/K6XELyTf62": 20
+      }
+    },
+    "content_availability": {
+      "articles": [
+        {
+          "topic": "Why Content Is Missing",
+          "reasons": [
+            "Licensing agreements vary by country/region",
+            "Artists or labels may remove their own content",
+            "Content can be temporarily unavailable during licensing negotiations",
+            "Some tracks are region-locked"
+          ],
+          "what_to_do": [
+            "Check for alternate versions or compilations",
+            "Follow the artist to get notified of new releases",
+            "Greyed out tracks = exists but not available in your region",
+            "Request content via the Spotify Community forums"
+          ]
+        }
+      ],
+      "top_urls": {
+        "https://t.co/ldFdZRiNAt": 110,
+        "https://t.co/0i8GpimuDa": 79,
+        "https://t.co/X8DVSX9QgM": 16,
+        "https://t.co/38J7tFlIBF": 15,
+        "https://t.co/MEjmIRL2eB": 11,
+        "https://t.co/XDwWzj7cLP": 10,
+        "https://t.co/VMrgnGpB4G": 9,
+        "https://t.co/pXBCq8GlsI": 7,
+        "https://t.co/1dgftcFtzc": 6,
+        "https://t.co/3h0TnPWP0c": 6
+      }
+    },
+    "download_offline": {
+      "articles": [
+        {
+          "topic": "Downloads Unexpectedly Removed",
+          "causes": [
+            "Using more offline devices than allowed",
+            "Not going online at least once every 30 days",
+            "App update or reinstall cleared cached downloads",
+            "Low storage space on device"
+          ],
+          "fixes": [
+            "Check and manage offline devices at spotify.com/account",
+            "Go online at least once every 30 days",
+            "Free up storage space, then re-download",
+            "If persistent: reinstall the app and re-download"
+          ],
+          "limits": [
+            "Up to 10,000 tracks per device",
+            "Up to 5 offline devices",
+            "Must connect to internet every 30 days"
+          ],
+          "how_to_download": [
+            "Open a playlist, album, or podcast",
+            "Tap the download toggle/arrow icon",
+            "Green arrow = downloaded successfully",
+            "Offline mode: Settings > Playback > Offline mode"
+          ]
+        }
+      ],
+      "top_urls": {
+        "https://t.co/ldFdZRiNAt": 246,
+        "https://t.co/38J7tFlIBF": 234,
+        "https://t.co/Z9OErWpTNz": 26,
+        "https://t.co/EidIERWgLX": 16,
+        "https://t.co/EqisDMwZAT": 15,
+        "https://t.co/WSjJgGAmPy": 12,
+        "https://t.co/0i8GpimuDa": 9,
+        "https://t.co/ZgU70TbP8M": 9,
+        "https://t.co/ldFdZR1cbT": 7,
+        "https://t.co/rtDvYZOF32": 6
+      }
+    },
+    "country_region": {
+      "articles": [
+        {
+          "topic": "Spotify Availability",
+          "info": "Spotify launches in new countries regularly but is not yet available worldwide.",
+          "what_to_do": [
+            "Sign up at spotify.com to be notified when available in your country",
+            "Check spotify.com for the list of supported countries"
+          ],
+          "traveling": "You can use Spotify abroad for up to 14 days. After that, update your country setting in account settings."
+        }
+      ],
+      "top_urls": {}
+    },
+    "feature_request": {
+      "articles": [
+        {
+          "topic": "How to Request Features",
+          "steps": [
+            "Visit the Spotify Community Ideas board at community.spotify.com",
+            "Search if your idea already exists",
+            "If it exists, vote for it",
+            "If not, create a new idea post",
+            "Popular ideas are reviewed by the Spotify team"
+          ],
+          "bot_response_template": "Thanks for the suggestion! You can vote for this on the Spotify Community Ideas board — the more votes, the more likely it'll be considered."
+        }
+      ],
+      "top_urls": {}
+    }
+  }
+}
